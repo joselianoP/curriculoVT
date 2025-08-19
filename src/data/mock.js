@@ -175,6 +175,67 @@ export const experiences = [
       "JBoss",
     ],
   },
+  {
+    id: 6,
+    company: "KMR2 SISTEMAS LTDA.",
+    position: "Líder Técnico de Equipe",
+    client: "KMR2 SISTEMAS",
+    period: "Nov 2005 - Set 2013",
+    duration: "7 anos e 11 meses",
+    location: "Rio de Janeiro, RJ",
+    description:
+      "Atuação como Líder Técnico de Equipe em projetos estratégicos, desde a concepção da proposta técnica até a implantação, integração e suporte de soluções corporativas, garantindo escalabilidade, melhores práticas e foco na satisfação do cliente.",
+    responsibilities: [
+      "Liderança técnica de projetos, atuando junto ao gerente de projetos em todas as etapas, desde a criação da proposta técnica até a implantação e pós-implantação",
+      "Condução de reuniões de levantamento de requisitos, mapeamento de processos e desenho de soluções alinhadas às necessidades do cliente",
+      "Implantação, instalação e configuração de sistemas de forma escalável, seguindo boas práticas e prevendo futuras expansões",
+      "Responsável pela transferência de conhecimento técnico e processual para a equipe de suporte, com documentação completa e transição suave para o cliente",
+      "Desenvolvimento de soluções de integração entre sistemas legados do cliente e sistemas terceiros, como ERP e bancos de dados",
+      "Prestação de consultoria especializada a parceiros de negócios durante a implantação, promovendo sessões de treinamento e transferência de conhecimento",
+      "Apresentação de propostas de aquisição, troca e upgrade de equipamentos para otimização do desempenho dos sistemas",
+      "Análise e desenvolvimento de rotinas de integração entre sistemas como NefroWeb, NefroMobile, Ambulatorial, Enfermagem, Contas a Pagar e Contas a Receber",
+    ],
+    technologies: [
+      "ASP 2.0",
+      "ASP.NET",
+      "MVC",
+      "C#",
+      "VB6",
+      "VBA",
+      "APIs",
+      "SQL Server",
+    ],
+  },
+
+  {
+    id: 7,
+    company: "Ministério da Saúde",
+    position: "Líder Técnico de Equipe",
+    client: "Ministério da Saúde",
+    period: "Set 1999 - Nov 2005",
+    duration: "6 anos e 3 meses",
+    location: "Brasília, DF",
+    description:
+      "Atuação como Líder Técnico de Equipe na definição de arquitetura, desenvolvimento, integração e manutenção de sistemas estratégicos para o Ministério da Saúde, abrangendo áreas de auditoria, gestão, inventário, RH e campanhas de saúde pública.",
+    responsibilities: [
+      "Definição da arquitetura, desenvolvimento e manutenção de sistemas como Auditoria, Compras Net 'Gestor', Suporte, RH, Dicon, SISAP, Sistema de Inventário, Consultoria e Patrimônio",
+      "Apresentação e implementação de solução de melhoria na integração do sistema de RH com o DataSUS, utilizando WebService",
+      "Responsável pela integração de sistemas como ReforSus, Controle de Óbitos e estatísticas sobre Diabetes (campanhas de março e abril de 2001) por meio de API em VB6",
+      "Proposição e implementação de padrões de código para Frontend, Backend e modelagem de banco de dados, reduzindo redundância, otimizando processos e aumentando a performance",
+      "Definição da arquitetura e desenvolvimento do sistema de Autorização de Perfil e Controle de Acesso Web",
+      "Participação ativa na modernização tecnológica de sistemas, aplicando boas práticas e garantindo escalabilidade e confiabilidade",
+      "Atuação em todas as fases do ciclo de vida do desenvolvimento de software, desde concepção até entrega e suporte",
+    ],
+    technologies: [
+      "ASP 2.0",
+      "ASP.NET",
+      "PHP",
+      "Java",
+      "VB6",
+      "WebService",
+      "SQL Server",
+    ],
+  },
 ];
 
 export const education = [
@@ -446,6 +507,33 @@ export const achievements = [
       "Otimização de APIs resultando em 60% de redução no tempo de resposta",
     year: "2023",
     organization: "Capgemini",
+    url: "#",
+  },
+  {
+    id: 5,
+    title: "Padrões de Código e Modelagem de Banco",
+    description:
+      "Definiu e aplicou padrões de código e modelagem de banco de dados que reduziram redundâncias e aumentaram a performance dos sistemas corporativos.",
+    year: "2004",
+    organization: "Ministério da Saúde",
+    url: "#",
+  },
+  {
+    id: 6,
+    title: "Campanha Nacional de Estatísticas sobre Diabetes",
+    description:
+      "Desenvolveu e integrou sistema para coleta e análise estatística sobre Diabetes durante as campanhas de março e abril de 2001, possibilitando tomada de decisão baseada em dados.",
+    year: "2001",
+    organization: "Ministério da Saúde",
+    url: "#",
+  },
+  {
+    id: 7,
+    title: "Integração RH com DataSUS",
+    description:
+      "Responsável por propor e implementar solução de integração entre o sistema de RH e o DataSUS utilizando WebService, garantindo maior confiabilidade no intercâmbio de informações.",
+    year: "2002",
+    organization: "Ministério da Saúde",
     url: "#",
   },
 ];
