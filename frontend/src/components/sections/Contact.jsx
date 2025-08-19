@@ -89,7 +89,7 @@ const Contact = () => {
                   </a>
                 </CardContent>
               </Card>
-
+             
               <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-4 mb-4">
@@ -109,7 +109,8 @@ const Contact = () => {
                   </a>
                 </CardContent>
               </Card>
-
+  </div>
+              <div className="lg:col-span-2">
               <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-4 mb-4">
@@ -124,7 +125,7 @@ const Contact = () => {
                   <p className="text-navy-600 font-medium">{personalInfo.location}</p>
                 </CardContent>
               </Card>
-
+             
               {/* Social Links & CV Download */}
               <Card className="border-0 shadow-lg bg-gradient-to-r from-navy-600 to-navy-700 text-white">
                 <CardContent className="p-6">
@@ -142,7 +143,7 @@ const Contact = () => {
                         <Linkedin size={20} />
                         <span>LinkedIn</span>
                       </a>
-                      <a
+                      {/*<a
                         href={personalInfo.socialLinks.github}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -150,7 +151,7 @@ const Contact = () => {
                       >
                         <Github size={20} />
                         <span>GitHub</span>
-                      </a>
+                      </a>*/}
                     </div>
 
                     {/* CV Download */}
@@ -158,7 +159,7 @@ const Contact = () => {
                       <Button
                         className="w-full bg-white text-navy-600 hover:bg-navy-50"
                         onClick={() => {
-                          window.open("https://customer-assets.emergentagent.com/job_c2661964-7912-4f4a-bf9c-a800cd7beb8c/artifacts/6t3ouo0g_Joseliano_cv_desenvolvedor_dev.pdf", "_blank");
+                          window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
                         }}
                       >
                         <Download size={16} className="mr-2" />
@@ -171,6 +172,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
+            {/*
             <div className="lg:col-span-2">
               <Card className="border-0 shadow-lg">
                 <CardContent className="p-8">
@@ -178,7 +180,7 @@ const Contact = () => {
                   
                   <form onSubmit={handleSubmit} className="space-y-6">
                     
-                    {/* Name and Email Row */}
+                    
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div className="space-y-2">
                         <Label htmlFor="name" className="text-gray-700 font-medium">
@@ -212,7 +214,7 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    {/* Subject */}
+                    
                     <div className="space-y-2">
                       <Label htmlFor="subject" className="text-gray-700 font-medium">
                         Assunto
@@ -227,7 +229,7 @@ const Contact = () => {
                       />
                     </div>
 
-                    {/* Message */}
+                    
                     <div className="space-y-2">
                       <Label htmlFor="message" className="text-gray-700 font-medium">
                         Mensagem *
@@ -244,7 +246,7 @@ const Contact = () => {
                       />
                     </div>
 
-                    {/* Submit Button */}
+                    
                     <div className="pt-4">
                       <Button
                         type="submit"
@@ -266,16 +268,16 @@ const Contact = () => {
                       </Button>
                     </div>
 
-                    {/* Form Note */}
+                    
                     <p className="text-sm text-gray-500 text-center">
                       * Campos obrigatórios. Sua mensagem será respondida em até 24 horas.
                     </p>
                   </form>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
           </div>
-
+         
           {/* Call to Action */}
           <div className="text-center mt-16">
             <Card className="border-0 shadow-lg bg-gradient-to-r from-slate-100 to-slate-200">
@@ -303,7 +305,7 @@ const Contact = () => {
                     size="lg"
                     className="border-navy-600 text-navy-600 hover:bg-navy-600 hover:text-white px-8"
                     onClick={() => {
-                      window.open("https://customer-assets.emergentagent.com/job_c2661964-7912-4f4a-bf9c-a800cd7beb8c/artifacts/6t3ouo0g_Joseliano_cv_desenvolvedor_dev.pdf", "_blank");
+                      window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
                     }}
                   >
                     <Download size={20} className="mr-2" />

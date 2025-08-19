@@ -15,7 +15,7 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-white to-slate-100 pt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid gap-12 items-center">
             
             {/* Content */}
             <div className="space-y-8 animate-fade-in">
@@ -30,11 +30,11 @@ const Hero = () => {
                   {personalInfo.title}
                 </h2>
                 <p className="text-lg text-gray-500">
-                  {personalInfo.experience}
+                  {personalInfo.experienceAnos}{personalInfo.experience}
                 </p>
               </div>
 
-              <p className="text-gray-600 text-lg leading-relaxed max-w-2xl">
+              <p className="text-gray-600 text-lg leading-relaxed">
                 {personalInfo.summary}
               </p>
 
@@ -53,7 +53,7 @@ const Hero = () => {
                   size="lg"
                   className="border-navy-600 text-navy-600 hover:bg-navy-600 hover:text-white px-8 py-3"
                   onClick={() => {
-                    window.open("https://customer-assets.emergentagent.com/job_c2661964-7912-4f4a-bf9c-a800cd7beb8c/artifacts/6t3ouo0g_Joseliano_cv_desenvolvedor_dev.pdf", "_blank");
+                    window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
                   }}
                 >
                   <Download size={20} className="mr-2" />
@@ -62,7 +62,7 @@ const Hero = () => {
               </div>
 
               {/* Social Links */}
-              <div className="flex items-center space-x-6 pt-4">
+              <div className="flex items-center space-x-12 pt-4">
                 <a
                   href={personalInfo.socialLinks.linkedin}
                   target="_blank"
@@ -71,14 +71,14 @@ const Hero = () => {
                 >
                   <Linkedin size={28} />
                 </a>
-                <a
+               {/* <a
                   href={personalInfo.socialLinks.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-navy-600 transition-colors duration-200 transform hover:scale-110"
                 >
                   <Github size={28} />
-                </a>
+                </a>*/}
                 <a
                   href={`mailto:${personalInfo.email}`}
                   className="text-gray-400 hover:text-navy-600 transition-colors duration-200 transform hover:scale-110"
@@ -88,25 +88,7 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Profile Image */}
-            <div className="flex justify-center lg:justify-end animate-fade-in-up">
-              <div className="relative">
-                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-8 border-white shadow-2xl">
-                  <img
-                    src={personalInfo.profileImage}
-                    alt={personalInfo.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                {/* Floating Elements */}
-                <div className="absolute -top-4 -right-4 w-20 h-20 bg-navy-600 rounded-full flex items-center justify-center shadow-lg animate-bounce-slow">
-                  <span className="text-white font-bold text-sm">22+</span>
-                </div>
-                <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-r from-navy-500 to-navy-700 rounded-full flex items-center justify-center shadow-lg animate-pulse">
-                  <span className="text-white font-bold text-xs">Java</span>
-                </div>
-              </div>
-            </div>
+        
           </div>
 
           {/* Scroll Indicator */}

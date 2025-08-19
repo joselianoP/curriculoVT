@@ -70,20 +70,20 @@ const Header = () => {
             >
               <Linkedin size={20} />
             </a>
-            <a
+           {/* <a
               href={personalInfo.socialLinks.github}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-navy-600 transition-colors"
             >
               <Github size={20} />
-            </a>
+            </a>*/}
             <Button
               size="sm"
               className="bg-navy-600 hover:bg-navy-700 text-white"
               onClick={() => {
                 // Mock download action
-                window.open("https://customer-assets.emergentagent.com/job_c2661964-7912-4f4a-bf9c-a800cd7beb8c/artifacts/6t3ouo0g_Joseliano_cv_desenvolvedor_dev.pdf", "_blank");
+                window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
               }}
             >
               <Download size={16} className="mr-2" />
@@ -137,7 +137,7 @@ const Header = () => {
                   size="sm"
                   className="bg-navy-600 hover:bg-navy-700 text-white flex-1"
                   onClick={() => {
-                    window.open("https://customer-assets.emergentagent.com/job_c2661964-7912-4f4a-bf9c-a800cd7beb8c/artifacts/6t3ouo0g_Joseliano_cv_desenvolvedor_dev.pdf", "_blank");
+                    window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
                   }}
                 >
                   <Download size={16} className="mr-2" />

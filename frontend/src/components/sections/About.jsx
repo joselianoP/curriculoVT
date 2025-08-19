@@ -3,6 +3,7 @@ import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { MapPin, Calendar, Award } from "lucide-react";
 import { personalInfo, achievements } from "../../data/mock";
+import { Globe } from "lucide-react";
 
 const About = () => {
   return (
@@ -86,8 +87,19 @@ const About = () => {
                           <div className="flex items-center space-x-4 text-xs text-gray-500">
                             <span>{achievement.year}</span>
                             <span>•</span>
-                            <span>{achievement.organization}</span>
+                            <span>{achievement.organization}</span>   
                           </div>
+                            {achievement.url !== "#" && (
+                              <p className="text-gray-600 text-sm mb-2"> 
+                              <a
+                                href={achievement.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-400 hover:text-navy-600 transition-colors duration-200 transform hover:scale-110"
+                              >
+                                <Globe className="w-4 h-4" /> 
+                            </a></p>)}
+                          
                         </div>
                       </div>
                     ))}
@@ -117,7 +129,7 @@ const About = () => {
                       <Calendar className="text-navy-600" size={18} />
                       <div>
                         <p className="text-sm text-gray-500">Experiência</p>
-                        <p className="font-medium text-gray-800">{personalInfo.experience}</p>
+                        <p className="font-medium text-gray-800">{personalInfo.experienceAnos}{personalInfo.experience}</p>
                       </div>
                     </div>
                   </div>

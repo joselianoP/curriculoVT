@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="md:col-span-2">
               <h3 className="text-2xl font-bold mb-4">{personalInfo.name}</h3>
               <p className="text-navy-200 mb-6 leading-relaxed">
-                {personalInfo.title} com {personalInfo.experience} em desenvolvimento de software, 
+                {personalInfo.title} com {personalInfo.experienceAnos}{personalInfo.experience} em desenvolvimento de software, 
                 arquitetura de sistemas e liderança técnica. Especialista em modernização de sistemas 
                 e otimização de performance.
               </p>
@@ -65,14 +65,14 @@ const Footer = () => {
                 >
                   <Linkedin size={20} />
                 </a>
-                <a
+               {/*} <a
                   href={personalInfo.socialLinks.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-navy-700 rounded-full flex items-center justify-center text-navy-200 hover:bg-navy-600 hover:text-white transition-colors"
                 >
                   <Github size={20} />
-                </a>
+                </a>*/}
                 <a
                   href={`mailto:${personalInfo.email}`}
                   className="w-10 h-10 bg-navy-700 rounded-full flex items-center justify-center text-navy-200 hover:bg-navy-600 hover:text-white transition-colors"
@@ -164,7 +164,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2 text-navy-300 text-sm">
                 <span>Desenvolvido com</span>
                 <Heart size={16} className="text-red-400 animate-pulse" />
-                <span>usando React & FastAPI</span>
+                
               </div>
             </div>
           </div>
@@ -176,7 +176,7 @@ const Footer = () => {
                 <strong className="text-navy-100">Disponibilidade:</strong> Remoto e Presencial
               </div>
               <div>
-                <strong className="text-navy-100">Modalidade:</strong> CLT, PJ, Freelancer
+                <strong className="text-navy-100">Modalidade:</strong> CLT,  Freelancer
               </div>
               <div>
                 <strong className="text-navy-100">Resposta:</strong> Até 24h
