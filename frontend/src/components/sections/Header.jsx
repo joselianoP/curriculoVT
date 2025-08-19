@@ -43,7 +43,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <h1 className="text-xl font-bold text-navy-800 cursor-pointer"
                 onClick={() => scrollToSection("hero")}>
-              Joseliano Silva
+              Joseliano Araujo
             </h1>
           </div>
 
