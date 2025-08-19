@@ -41,7 +41,7 @@ const About = () => {
                     </p>
                     
                     <p className="text-gray-600 leading-relaxed">
-                      Atualmente, atuo como Especialista e Líder Técnico na Capgemini, onde lidero 
+                      Atualmente, atuo como Especialista na Capgemini, onde lidero 
                       iniciativas de modernização de sistemas para o Bradesco Seguros, focando em 
                       performance, escalabilidade e boas práticas de desenvolvimento.
                     </p>
