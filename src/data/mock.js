@@ -574,23 +574,38 @@ export const achievements = [
 export const certifications = [
   {
     id: 1,
-    name: "AWS Cloud Practitioner",
-    issuer: "Amazon Web Services",
-    year: "2023",
-    status: "Ativo"
+    name: "Conceitos fundamentais de IA",
+    issuer: "DIO CorporationDIO Corporation",
+    year: "2024",
+    status: "Ativo",
   },
   {
     id: 2,
-    name: "Scrum Master Certified",
-    issuer: "Scrum Alliance",
-    year: "2022",
-    status: "Ativo"
+    name: "AWS Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    year: "2023",
+    status: "Ativo",
   },
+
   {
     id: 3,
+    name: "Scrum Fundamentals Certified (SFC)",
+    issuer: "Scrum Alliance",
+    year: "2023",
+    status: "Ativo",
+  },
+  {
+    id: 4,
+    name: "Marketing Strategy Fundamentals",
+    issuer: "Oracle",
+    year: "2023",
+    status: "Ativo",
+  },
+  {
+    id: 5,
     name: "Oracle Certified Professional Java",
     issuer: "Oracle",
     year: "2021",
-    status: "Ativo"
-  }
+    status: "Ativo",
+  },
 ];
