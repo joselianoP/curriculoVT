@@ -178,11 +178,11 @@ const About = () => {
                     
                     <div>
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-gray-700">Inglês</span>
+                        <span className="text-gray-700">Inglês </span>
                         <span className="text-sm text-gray-500">Técnico</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-navy-600 h-2 rounded-full w-3/4"></div>
+                        <div className="bg-navy-600 h-2 rounded-full w-1/4"></div>
                       </div>
                     </div>
                     
@@ -192,7 +192,7 @@ const About = () => {
                         <span className="text-sm text-gray-500">Básico</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-navy-600 h-2 rounded-full w-2/5"></div>
+                        <div className="bg-navy-600 h-2 rounded-full w-1/5"></div>
                       </div>
                     </div>
                   </div>
