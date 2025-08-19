@@ -574,13 +574,34 @@ export const achievements = [
 export const certifications = [
   {
     id: 1,
+    name: "Kanban e Ferramentas Ágeis de Gestão de Projetos",
+    issuer: "Fundação Getulio Vargas - FGV Online",
+    year: "2025",
+    status: "Ativo",
+  },
+  {
+    id: 2,
     name: "Conceitos fundamentais de IA",
     issuer: "DIO CorporationDIO Corporation",
     year: "2024",
     status: "Ativo",
   },
   {
-    id: 2,
+    id: 3,
+    name: "Negotiation Associate",
+    issuer: "Certificado Internacional",
+    year: "2024",
+    status: "Ativo",
+  },
+  {
+    id: 4,
+    name: "Marketing Strategy Fundamentals",
+    issuer: "Certificado Internacional",
+    year: "2023",
+    status: "Ativo",
+  },
+  {
+    id: 5,
     name: "AWS Cloud Practitioner",
     issuer: "Amazon Web Services",
     year: "2023",
@@ -588,24 +609,17 @@ export const certifications = [
   },
 
   {
-    id: 3,
+    id: 6,
     name: "Scrum Fundamentals Certified (SFC)",
     issuer: "Scrum Alliance",
     year: "2023",
     status: "Ativo",
   },
   {
-    id: 4,
+    id: 7,
     name: "Marketing Strategy Fundamentals",
     issuer: "Oracle",
     year: "2023",
-    status: "Ativo",
-  },
-  {
-    id: 5,
-    name: "Oracle Certified Professional Java",
-    issuer: "Oracle",
-    year: "2021",
     status: "Ativo",
   },
 ];

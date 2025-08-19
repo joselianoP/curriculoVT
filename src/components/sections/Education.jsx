@@ -105,8 +105,7 @@ const Education = () => {
                         <div className="flex-grow">
                           <h4 className="text-lg font-semibold text-navy-800 mb-2 group-hover:text-navy-600 transition-colors">
                             {cert.name}
-                          </h4>
-                          <p className="text-gray-600 font-medium mb-2">{cert.issuer}</p>
+                          </h4>                        
                           <div className="flex items-center space-x-4 text-sm text-gray-500">
                             <div className="flex items-center space-x-1">
                               <Calendar size={14} />
@@ -121,12 +120,7 @@ const Education = () => {
                             {cert.status}
                           </Badge>
                         </div>
-                      </div>
-                      
-                      {/* Certification Icon */}
-                      <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-navy-100 to-navy-200 rounded-full mb-4 mx-auto">
-                        <Award className="text-navy-600" size={24} />
-                      </div>
+                      </div>                      
                     </CardContent>
                   </Card>
                 ))}
@@ -149,6 +143,8 @@ const Education = () => {
               </div>
             </div>
           </div>
+
+          
 
           {/* Educational Timeline Summary */}
           <div className="mt-16">
