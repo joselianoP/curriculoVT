@@ -470,6 +470,39 @@ export const projects = [
       "Otimização significativa de performance",
     ],
   },
+
+  {
+    id: 5,
+    title: "Sistema NefroMobile",
+    description:
+      "Solução em Android voltada para gestão hospitalar e acompanhamento de pacientes em tratamento, integradas a módulos financeiros e assistenciais.",
+    technologies: ["ASP.NET", "APIs", "SQL Server"],
+    image:
+      "https://images.unsplash.com/photo-1581092919539-47a56b5c3c1a?w=600&h=400&fit=crop",
+    status: "Concluído",
+    period: "2005-2013",
+    highlights: [
+      "Integração entre sistemas hospitalares e financeiros",
+      "Implantação de solução escalável para clínicas",
+      "Consultoria e treinamentos para parceiros de negócio",
+    ],
+  },
+  {
+    id: 6,
+    title: "Sistemas Ouvidoria, Contact Center e SAC",
+    description:
+      "Modernização e sustentação de sistemas estratégicos para atendimento ao cliente na Unimed Rio, incluindo a migração de legados para .NET.",
+    technologies: ["ASP.NET", "C#", "Angular", "Oracle", "SQL Server"],
+    image:
+      "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?w=600&h=400&fit=crop",
+    status: "Concluído",
+    period: "2019",
+    highlights: [
+      "Migração de sistemas legados de ASP para C#.NET",
+      "Melhoria de performance e escalabilidade",
+      "Conformidade regulatória com comunicação TISS",
+    ],
+  },
 ];
 
 export const achievements = [
