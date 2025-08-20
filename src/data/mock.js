@@ -647,6 +647,7 @@ export const certifications = [
     issuer: "Fundação Getulio Vargas - FGV Online",
     year: "2025",
     status: "Ativo",
+    url: "#",
   },
   {
     id: 2,
@@ -654,6 +655,7 @@ export const certifications = [
     issuer: "DIO CorporationDIO Corporation",
     year: "2024",
     status: "Ativo",
+    url: "#",
   },
   {
     id: 3,
@@ -661,6 +663,7 @@ export const certifications = [
     issuer: "Certificado Internacional",
     year: "2024",
     status: "Ativo",
+    url: "#",
   },
   {
     id: 4,
@@ -668,6 +671,7 @@ export const certifications = [
     issuer: "Certificado Internacional",
     year: "2023",
     status: "Ativo",
+    url: "#",
   },
   {
     id: 5,
@@ -675,6 +679,7 @@ export const certifications = [
     issuer: "Amazon Web Services",
     year: "2023",
     status: "Ativo",
+    url: "#",
   },
 
   {
@@ -683,12 +688,23 @@ export const certifications = [
     issuer: "Scrum Alliance",
     year: "2023",
     status: "Ativo",
+    url: "https://www.scrumstudy.com/certification/verify?type=SFC&number=988667",
   },
   {
     id: 7,
+    name: "Six Sigma Yellow Belt",
+    issuer: "Scrum Alliance",
+    year: "2023",
+    status: "Ativo",
+    url: "https://www.6sigmastudy.com/certification/verify?type=SSYB&number=868455",
+  },
+
+  {
+    id: 8,
     name: "Marketing Strategy Fundamentals",
     issuer: "Oracle",
     year: "2023",
     status: "Ativo",
+    url: "#",
   },
 ];

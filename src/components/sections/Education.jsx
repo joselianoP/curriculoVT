@@ -3,6 +3,7 @@ import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { GraduationCap, Calendar, Award } from "lucide-react";
 import { education, certifications } from "../../data/mock";
+import { Globe } from "lucide-react";
 
 const Education = () => {
   return (
@@ -110,6 +111,19 @@ const Education = () => {
                             <div className="flex items-center space-x-1">
                               <Calendar size={14} />
                               <span>{cert.year}</span>
+
+                              {cert.url !== "#" && (                              
+                              <a
+                                href={cert.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-400 hover:text-navy-600 transition-colors duration-200 transform hover:scale-110"
+                              >
+                                <Globe className="w-4 h-4" /> 
+                              </a>)}
+                              
+                               
+
                             </div>
                           </div>
                         </div>
