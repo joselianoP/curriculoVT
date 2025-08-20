@@ -586,13 +586,33 @@ export const achievements = [
     id: 4,
     title: "Otimização APIs - 60% Performance",
     description:
-      "Otimização de APIs resultando em 60% de redução no tempo de resposta",
+      "Responsável pela otimização de endpoints críticos de APIs REST, aplicando técnicas de caching, indexação de queries e refatoração de código, o que proporcionou uma redução de 60% no tempo médio de resposta.",
     year: "2023",
     organization: "Capgemini",
     url: "#",
   },
   {
     id: 5,
+    title: "Propostas de Melhorias e Upgrades de Equipamentos",
+    description:
+      "Apresentou propostas soluções adicionais como sistema de marcação de ponto, controle de relatórios técnicos e prescrição médica eletrônica, otimizando processos internos e aumentando a eficiência operacional.",
+    year: "2009",
+    organization: "KMR2 Sistemas LTDA",
+    url: "#",
+  },
+
+  {
+    id: 6,
+    title: "Propostas Upgrades de Equipamentos",
+    description:
+      "Identificou e apresentou propostas estratégicas para aquisição, substituição e upgrade de equipamentos, resultando em melhorias significativas de desempenho dos sistemas.",
+    year: "2006",
+    organization: "KMR2 Sistemas LTDA",
+    url: "#",
+  },
+
+  {
+    id: 7,
     title: "Padrões de Código e Modelagem de Banco",
     description:
       "Definiu e aplicou padrões de código e modelagem de banco de dados que reduziram redundâncias e aumentaram a performance dos sistemas corporativos.",
@@ -601,7 +621,7 @@ export const achievements = [
     url: "#",
   },
   {
-    id: 6,
+    id: 8,
     title: "Campanha Nacional de Estatísticas sobre Diabetes",
     description:
       "Desenvolveu e integrou sistema para coleta e análise estatística sobre Diabetes durante as campanhas de março e abril de 2001, possibilitando tomada de decisão baseada em dados.",
@@ -610,7 +630,7 @@ export const achievements = [
     url: "#",
   },
   {
-    id: 7,
+    id: 9,
     title: "Integração RH com DataSUS",
     description:
       "Responsável por propor e implementar solução de integração entre o sistema de RH e o DataSUS utilizando WebService, garantindo maior confiabilidade no intercâmbio de informações.",
