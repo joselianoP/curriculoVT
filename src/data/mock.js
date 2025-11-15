@@ -466,27 +466,17 @@ export const skills = {
     },
     {
       name: "Gestão de Riscos e Impactos Técnicos",
-      level: 84,
+      level: 98,
       category: "Leadership",
     },
     {
       name: "Análise de Requisitos e Negócio",
-      level: 89,
+      level: 95,
       category: "Leadership",
     },
     {
       name: "Integração entre Times (Dev, QA, Negócio)",
-      level: 91,
-      category: "Leadership",
-    },
-    {
-      name: "Planejamento de Releases & Go-Live",
-      level: 50,
-      category: "Leadership",
-    },
-    {
-      name: "Comunicação Técnica Executiva",
-      level: 90,
+      level: 96,
       category: "Leadership",
     },
   ],
