@@ -639,7 +639,7 @@ export const achievements = [
 
     {
       id: 6,
-      title: "Propostas de Melhorias e Upgrades de Equipamentos",
+      title: "Propostas de Melhorias",
       description:
         "Propôs soluções como sistema de marcação de ponto, relatórios técnicos e prescrição médica eletrônica, otimizando processos internos.",
       year: "2009",
