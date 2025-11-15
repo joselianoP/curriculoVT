@@ -29,7 +29,7 @@ export const experiences = [
     duration: "3+ anos",
     location: "Rio de Janeiro, RJ",
     description:
-      "Liderança técnica na implementação e manutenção de sistemas, garantindo escalabilidade, performance e segurança. Otimização de APIs com redução de 60% no tempo de resposta.",
+      "Especialista Java na implementação e manutenção de sistemas, garantindo escalabilidade, performance e segurança. Otimização de APIs com redução de 60% no tempo de resposta.",
     responsibilities: [
       "Atuação em todo o ciclo de desenvolvimento de software, com foco em melhoria contínua, qualidade das entregas e satisfação do cliente",
       "Mentoria e suporte a novos desenvolvedores, promovendo integração, evolução técnica e fortalecimento da equipe",
@@ -451,6 +451,35 @@ export const skills = {
 export const projects = [
   {
     id: 1,
+    title: "Adequação dos Sistemas Asessoria",
+    description:
+      "Arquitetura e desenvolvimento para evolução dos sistemas, permitindo registrar e exibir o CPF e o Nome do corretor nas jornadas de comercialização e pós-venda.",
+    summary:
+      "Atuei com foco principal no desenvolvimento e na definição da arquitetura Java, estruturando a solução e liderando tecnicamente o time. Apoiei a equipe Cobol na integração com sistemas legados, participei da análise de requisitos, testes ponta a ponta e adequação das telas do Portal de Negócios para garantir rastreabilidade e segurança por acesso individualizado via CPF.",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "REST",
+      "Integração Cobol",
+      "Portal de Negócios",
+      "Dynacache",
+    ],
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    status: "Em andamento",
+    period: "2024-2025",
+    highlights: [
+      "Foco principal na arquitetura e no desenvolvimento da solução",
+      "Padronização técnica e definição do modelo de integração",
+      "Apoio às equipes Cobol e sistemas legados",
+      "Tratamento e armazenamento dos novos campos (Nome/CPF)",
+      "Adequação das telas do Portal de Negócios",
+      "Testes ponta a ponta assegurando a rastreabilidade da jornada",
+    ],
+  },
+
+  {
+    id: 2,
     title: "Sistema Dados Pagamento - Bradesco Seguros",
     description:
       "Arquitetura e desenvolvimento de aplicação estruturada em BFF (Backend for Frontend), promovendo eficiência na comunicação entre front-end e back-end.",
@@ -472,7 +501,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Modernização Sistema Bolsa Família",
     description:
       "Liderança na migração de AngularJS para Angular 8+ com arquitetura baseada em microserviços para o programa social do governo federal.",
@@ -488,7 +517,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Sistema SIURB - Caixa Econômica Federal",
     description:
       "Padronização e melhoria do Sistema de Acompanhamento de Obras da Caixa, transformando-o em modelo de referência nacional. Premiado em Brasília.",
@@ -504,7 +533,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Sistemas Oi - SOV, SiVelox, OIVelox",
     description:
       "Desenvolvimento e padronização de sistemas críticos incluindo SOV (Viabilidade de Rede), com automação de processos e integração de dados.",
@@ -521,7 +550,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Sistema NefroMobile",
     description:
       "Solução em Android voltada para gestão hospitalar e acompanhamento de pacientes em tratamento, integradas a módulos financeiros e assistenciais.",
@@ -537,7 +566,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Sistemas Ouvidoria, Contact Center e SAC",
     description:
       "Modernização e sustentação de sistemas estratégicos para atendimento ao cliente na Unimed Rio, incluindo a migração de legados para .NET.",
