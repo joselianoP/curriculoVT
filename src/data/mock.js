@@ -451,7 +451,7 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "Adequação dos Sistemas Assessoria",
+    title: "Adequação  Assessoria - Bradesco Seguros",
     description:
       "Arquitetura e desenvolvimento para evolução dos sistemas, permitindo registrar e exibir o CPF e o Nome do corretor nas jornadas de comercialização e pós-venda.",
     summary:
