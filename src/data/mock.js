@@ -466,7 +466,7 @@ export const projects = [
     ],
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    status: "Em andamento",
+    status: "Produção",
     period: "2024-2025",
     highlights: [
       "Foco principal na arquitetura e no desenvolvimento da solução",
@@ -508,7 +508,7 @@ export const projects = [
     technologies: ["Angular 8-12", "Java 11", "Spring Boot", "APIs REST"],
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    status: "Concluído",
+    status: "Produção",
     period: "2020-2021",
     highlights: [
       "Migração completa AngularJS para Angular",
@@ -524,7 +524,7 @@ export const projects = [
     technologies: ["Java", "Spring", "Angular", "Oracle", "PL/SQL"],
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
-    status: "Concluído",
+    status: "Produção",
     period: "2015-2018",
     highlights: [
       "Redução de 80% do backlog de erros",
@@ -540,7 +540,7 @@ export const projects = [
     technologies: ["Java", "Angular", "MongoDB", "Oracle", "APIs REST"],
     image:
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
-    status: "Concluído",
+    status: "Produção",
     period: "2016-2018",
     highlights: [
       "Automação de processos críticos",
@@ -557,7 +557,7 @@ export const projects = [
     technologies: ["ASP.NET", "APIs", "SQL Server"],
     image:
       "https://images.unsplash.com/photo-1581092919539-47a56b5c3c1a?w=600&h=400&fit=crop",
-    status: "Concluído",
+    status: "Produção",
     period: "2005-2013",
     highlights: [
       "Integração entre sistemas hospitalares e financeiros",
@@ -573,7 +573,7 @@ export const projects = [
     technologies: ["ASP.NET", "C#", "Angular", "Oracle", "SQL Server"],
     image:
       "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?w=600&h=400&fit=crop",
-    status: "Concluído",
+    status: "Produção",
     period: "2019",
     highlights: [
       "Migração de sistemas legados de ASP para C#.NET",
