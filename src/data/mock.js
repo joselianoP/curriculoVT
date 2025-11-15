@@ -433,63 +433,62 @@ export const skills = {
       category: "Modeling",
     },
 
-    [
-      {
-        name: "Liderança Técnica (Tech Lead)",
-        level: 90,
-        category: "Leadership",
-      },
-      {
-        name: "Definição de Arquitetura e Soluções",
-        level: 70,
-        category: "Leadership",
-      },
-      {
-        name: "Gerenciamento de Demandas e Priorização",
-        level: 87,
-        category: "Leadership",
-      },
-      {
-        name: "Acompanhamento de Entregas (End-to-End)",
-        level: 90,
-        category: "Leadership",
-      },
-      {
-        name: "Mentoria e Desenvolvimento de Time",
-        level: 92,
-        category: "Leadership",
-      },
-      {
-        name: "Alinhamento com Stakeholders",
-        level: 88,
-        category: "Leadership",
-      },
-      {
-        name: "Gestão de Riscos e Impactos Técnicos",
-        level: 84,
-        category: "Leadership",
-      },
-      {
-        name: "Análise de Requisitos e Negócio",
-        level: 89,
-        category: "Leadership",
-      },
-      {
-        name: "Integração entre Times (Dev, QA, Negócio)",
-        level: 91,
-        category: "Leadership",
-      },
-      {
-        name: "Planejamento de Releases & Go-Live",
-        level: 50,
-        category: "Leadership",
-      },
-      {
-        name: "Comunicação Técnica Executiva",
-        level: 90,
-        category: "Leadership",
-      },
-    ],
+    ,
+    {
+      name: "Liderança Técnica (Tech Lead)",
+      level: 90,
+      category: "Leadership",
+    },
+    {
+      name: "Definição de Arquitetura e Soluções",
+      level: 70,
+      category: "Leadership",
+    },
+    {
+      name: "Gerenciamento de Demandas e Priorização",
+      level: 87,
+      category: "Leadership",
+    },
+    {
+      name: "Acompanhamento de Entregas (End-to-End)",
+      level: 90,
+      category: "Leadership",
+    },
+    {
+      name: "Mentoria e Desenvolvimento de Time",
+      level: 92,
+      category: "Leadership",
+    },
+    {
+      name: "Alinhamento com Stakeholders",
+      level: 88,
+      category: "Leadership",
+    },
+    {
+      name: "Gestão de Riscos e Impactos Técnicos",
+      level: 84,
+      category: "Leadership",
+    },
+    {
+      name: "Análise de Requisitos e Negócio",
+      level: 89,
+      category: "Leadership",
+    },
+    {
+      name: "Integração entre Times (Dev, QA, Negócio)",
+      level: 91,
+      category: "Leadership",
+    },
+    {
+      name: "Planejamento de Releases & Go-Live",
+      level: 50,
+      category: "Leadership",
+    },
+    {
+      name: "Comunicação Técnica Executiva",
+      level: 90,
+      category: "Leadership",
+    },
   ],
   soft: [
     { name: "Liderança Técnica", level: 95 },
