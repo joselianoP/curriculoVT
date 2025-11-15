@@ -584,89 +584,109 @@ export const projects = [
 ];
 
 export const achievements = [
-  {
-    id: 1,
-    title: "Criação de Quiz",
-    description:
-      "Quiz interativo de perguntas e respostas especialmente desenvolvido para auxiliar no aprendizado e aprimoramento dos funcionários que desejam conquistar a certificação AWS. Esse recurso foi pensado como uma ferramenta prática de estudo, permitindo que cada colaborador possa testar seus conhecimentos, identificar pontos fortes, reconhecer áreas que precisam de maior dedicação e, assim, evoluir de forma estruturada. O quiz simula questões reais de prova, tornando o processo de preparação mais dinâmico, motivador e eficiente, além de contribuir para que os participantes ganhem confiança, desenvolvam raciocínio rápido e alcancem resultados mais consistentes em seus objetivos de certificação.",
-    year: "2024",
-    organization: "Capgemini",
-    url: "https://quiz-wsapp.vercel.app/home",
-  },
-  {
-    id: 2,
-    title: "Premiação Sistema SIURB",
-    description:
-      "Premiado em Brasília pelo trabalho excepcional no sistema SIURB da Caixa Econômica Federal",
-    year: "2017",
-    organization: "Caixa Econômica Federal",
-    url: "#",
-  },
-  {
-    id: 3,
-    title: "Redução 80% Backlog SIURB",
-    description:
-      "Liderou iniciativa que reduziu em 80% o backlog de erros do sistema SIURB",
-    year: "2017",
-    organization: "Global Web",
-    url: "#",
-  },
-  {
-    id: 4,
-    title: "Otimização APIs - 60% Performance",
-    description:
-      "Responsável pela otimização de endpoints críticos de APIs REST, aplicando técnicas de caching, indexação de queries e refatoração de código, o que proporcionou uma redução de 60% no tempo médio de resposta.",
-    year: "2023",
-    organization: "Capgemini",
-    url: "#",
-  },
-  {
-    id: 5,
-    title: "Propostas de Melhorias e Upgrades de Equipamentos",
-    description:
-      "Apresentou propostas soluções adicionais como sistema de marcação de ponto, controle de relatórios técnicos e prescrição médica eletrônica, otimizando processos internos e aumentando a eficiência operacional.",
-    year: "2009",
-    organization: "KMR2 Sistemas LTDA",
-    url: "#",
-  },
+  [
+    {
+      id: 1,
+      title: "Adequação dos Sistemas BARE – CPF e Nome do Corretor",
+      description:
+        "Arquitetura e desenvolvimento para evolução dos sistemas BARE, permitindo registrar e exibir o CPF e o Nome do corretor nas jornadas de comercialização e pós-venda.",
+      summary:
+        "Atuei com foco principal no desenvolvimento e na definição da arquitetura Java, estruturando a solução e liderando tecnicamente o time. Apoiei a equipe Cobol na integração com sistemas legados, participei da análise de requisitos, testes ponta a ponta e adequação das telas do Portal de Negócios para garantir rastreabilidade e segurança por acesso individualizado via CPF.",
+      year: "2025",
+      organization: "Bradesco Seguros",
+      url: "#",
+    },
 
-  {
-    id: 6,
-    title: "Propostas Upgrades de Equipamentos",
-    description:
-      "Identificou e apresentou propostas estratégicas para aquisição, substituição e upgrade de equipamentos, resultando em melhorias significativas de desempenho dos sistemas.",
-    year: "2006",
-    organization: "KMR2 Sistemas LTDA",
-    url: "#",
-  },
+    {
+      id: 2,
+      title: "Criação de Quiz",
+      description:
+        "Quiz interativo de perguntas e respostas para apoiar colaboradores na preparação para certificação AWS, simulando questões reais e tornando o aprendizado mais eficiente.",
+      year: "2024",
+      organization: "Capgemini",
+      url: "https://quiz-wsapp.vercel.app/home",
+    },
 
-  {
-    id: 7,
-    title: "Padrões de Código e Modelagem de Banco",
-    description:
-      "Definiu e aplicou padrões de código e modelagem de banco de dados que reduziram redundâncias e aumentaram a performance dos sistemas corporativos.",
-    year: "2004",
-    organization: "Ministério da Saúde",
-    url: "#",
-  },
-  {
-    id: 8,
-    title: "Campanha Nacional de Estatísticas sobre Diabetes",
-    description:
-      "Desenvolveu e integrou sistema para coleta e análise estatística sobre Diabetes durante as campanhas de março e abril de 2001, possibilitando tomada de decisão baseada em dados.",
-    year: "2001",
-    organization: "Ministério da Saúde",
-    url: "#",
-  },
-  {
-    id: 9,
-    title: "Integração RH com DataSUS",
-    description:
-      "Responsável por propor e implementar solução de integração entre o sistema de RH e o DataSUS utilizando WebService, garantindo maior confiabilidade no intercâmbio de informações.",
-    year: "2002",
-    organization: "Ministério da Saúde",
-    url: "#",
-  },
+    {
+      id: 3,
+      title: "Otimização APIs - 60% Performance",
+      description:
+        "Otimização de endpoints críticos de APIs REST, aplicando caching, indexação e refatoração, resultando em redução de 60% no tempo médio de resposta.",
+      year: "2023",
+      organization: "Capgemini",
+      url: "#",
+    },
+
+    {
+      id: 4,
+      title: "Premiação Sistema SIURB",
+      description:
+        "Premiado em Brasília pelo trabalho excepcional no sistema SIURB da Caixa Econômica Federal.",
+      year: "2017",
+      organization: "Caixa Econômica Federal",
+      url: "#",
+    },
+
+    {
+      id: 5,
+      title: "Redução 80% Backlog SIURB",
+      description:
+        "Liderou iniciativa que reduziu em 80% o backlog de erros do sistema SIURB.",
+      year: "2017",
+      organization: "Global Web",
+      url: "#",
+    },
+
+    {
+      id: 6,
+      title: "Propostas de Melhorias e Upgrades de Equipamentos",
+      description:
+        "Propôs soluções como sistema de marcação de ponto, relatórios técnicos e prescrição médica eletrônica, otimizando processos internos.",
+      year: "2009",
+      organization: "KMR2 Sistemas LTDA",
+      url: "#",
+    },
+
+    {
+      id: 7,
+      title: "Propostas Upgrades de Equipamentos",
+      description:
+        "Identificação e apresentação de propostas estratégicas de upgrade de equipamentos, melhorando desempenho dos sistemas.",
+      year: "2006",
+      organization: "KMR2 Sistemas LTDA",
+      url: "#",
+    },
+
+    {
+      id: 8,
+      title: "Padrões de Código e Modelagem de Banco",
+      description:
+        "Definição e aplicação de padrões de código e modelagem de banco que reduziram redundância e aumentaram performance.",
+      year: "2004",
+      organization: "Ministério da Saúde",
+      url: "#",
+    },
+
+    {
+      id: 9,
+      title: "Integração RH com DataSUS",
+      description:
+        "Proposta e implementação de integração entre o sistema de RH e o DataSUS via WebService, trazendo maior confiabilidade ao intercâmbio de dados.",
+      year: "2002",
+      organization: "Ministério da Saúde",
+      url: "#",
+    },
+
+    {
+      id: 10,
+      title: "Campanha Nacional de Estatísticas sobre Diabetes",
+      description:
+        "Desenvolvimento e integração de sistema para coleta e análise estatística sobre Diabetes nas campanhas de 2001.",
+      year: "2001",
+      organization: "Ministério da Saúde",
+      url: "#",
+    },
+  ],
 ];
 
 export const certifications = [
