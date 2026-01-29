@@ -498,7 +498,7 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "VoìLa - Plugin para Eclipse e RAID",
+    title: "Voilà - Plugin para Eclipse e RAID",
     description:
       "Arquitetura e desenvolvimento para evolução dos sistemas, permitindo registrar e exibir o CPF e o Nome do corretor nas jornadas de comercialização e pós-venda.",
     summary:
@@ -508,7 +508,7 @@ export const projects = [
     status: "Produção",
     period: "2026",
     highlights: [
-      "Desenvolvimento do plugin VoìLa para integração direta com IDEs Eclipse e RAID",
+      "Desenvolvimento do plugin Voilà para integração direta com IDEs Eclipse e RAID",
       "Integração da inteligência artificial da empresa para geração automática de testes unitários",
       "Criação de um ChatView interativo dentro da IDE, permitindo interação com a IA sem sair do ambiente de desenvolvimento",
       "Automação da análise de classes Java e geração de testes unitários na pasta src/test/java",
@@ -522,9 +522,9 @@ export const projects = [
     id: 2,
     title: "Adequação  Assessoria - Bradesco Seguros",
     description:
-      "VoìLa é um plugin para IDEs Eclipse e RAID que integra funcionalidades de geração automática de testes unitários e um ChatView interativo baseado em inteligência artificial, totalmente integrado ao ambiente de desenvolvimento Java.",
+      "Voilà é um plugin para IDEs Eclipse e RAID que integra funcionalidades de geração automática de testes unitários e um ChatView interativo baseado em inteligência artificial, totalmente integrado ao ambiente de desenvolvimento Java.",
     summary:
-      "Responsável pela criação do plugin, integrando a inteligência artificial,VoìLa, da empresa diretamente às IDEs Eclipse e RAID. O plugin permite que desenvolvedores iteragam diretamente com IA ",
+      "Responsável pela criação do plugin, integrando a inteligência artificial,Voilà, da empresa diretamente às IDEs Eclipse e RAID. O plugin permite que desenvolvedores iteragam diretamente com IA ",
     technologies: [
       "Java ",
       "SWT",
