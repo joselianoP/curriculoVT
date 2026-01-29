@@ -496,8 +496,29 @@ export const skills = {
 };
 
 export const projects = [
+ {
+  id: 1,
+  title: "VoìLa - Plugin para Eclipse e RAID",
+  description: 
+    "VoìLa é um plugin para IDEs Eclipse e RAID que integra funcionalidades de geração automática de testes unitários e um ChatView interativo baseado em inteligência artificial, totalmente integrado ao ambiente de desenvolvimento Java.",
+  summary: 
+    "Responsável pela criação do plugin, integrando a inteligência artificial,VoìLa, da empresa diretamente às IDEs Eclipse e RAID. O plugin permite que desenvolvedores iteragam diretamente com IA ",
+    image:  "/imagem/voila-blue.png",
+    status: "Produção",
+    period: "2025-2026",  
+   technologies: [
+    "Java ",
+    "SWT",
+    "JFace",
+    "ASTParser",
+    "HttpURLConnection",
+    "Jackson",
+    "Integração IA"
+  ]
+},
+
   {
-    id: 1,
+    id: 2,
     title: "Adequação  Assessoria - Bradesco Seguros",
     description:
       "Arquitetura e desenvolvimento para evolução dos sistemas, permitindo registrar e exibir o CPF e o Nome do corretor nas jornadas de comercialização e pós-venda.",
@@ -526,7 +547,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Sistema Dados Pagamento - Bradesco Seguros",
     description:
       "Arquitetura e desenvolvimento de aplicação estruturada em BFF (Backend for Frontend), promovendo eficiência na comunicação entre front-end e back-end.",
@@ -548,7 +569,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Modernização Sistema Bolsa Família",
     description:
       "Liderança na migração de AngularJS para Angular 8+ com arquitetura baseada em microserviços para o programa social do governo federal.",
@@ -564,7 +585,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Sistema SIURB - Caixa Econômica Federal",
     description:
       "Padronização e melhoria do Sistema de Acompanhamento de Obras da Caixa, transformando-o em modelo de referência nacional. Premiado em Brasília.",
@@ -580,7 +601,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Sistemas Oi - SOV, SiVelox, OIVelox",
     description:
       "Desenvolvimento e padronização de sistemas críticos incluindo SOV (Viabilidade de Rede), com automação de processos e integração de dados.",
@@ -597,7 +618,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Sistema NefroMobile",
     description:
       "Solução em Android voltada para gestão hospitalar e acompanhamento de pacientes em tratamento, integradas a módulos financeiros e assistenciais.",
@@ -613,7 +634,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Sistemas Ouvidoria, Contact Center e SAC",
     description:
       "Modernização e sustentação de sistemas estratégicos para atendimento ao cliente na Unimed Rio, incluindo a migração de legados para .NET.",
