@@ -497,26 +497,25 @@ export const skills = {
 
 export const projects = [
   {
-    id: 1,
-    title: "Voilà - Plugin para Eclipse e RAID",
-    description:
-      "Arquitetura e desenvolvimento para evolução dos sistemas, permitindo registrar e exibir o CPF e o Nome do corretor nas jornadas de comercialização e pós-venda.",
-    summary:
-      "Atuei com foco principal no desenvolvimento e na definição da arquitetura Java, estruturando a solução e liderando tecnicamente o time. Apoiei a equipe Cobol na integração com sistemas legados, participei da análise de requisitos, testes ponta a ponta e adequação das telas do Portal de Negócios para garantir rastreabilidade e segurança por acesso individualizado via CPF.",
-    technologies: ["Java"],
-    image: "/imagem/voila-blue.png",
-    status: "Produção",
-    period: "2026",
-    highlights: [
-      "Desenvolvimento do plugin Voilà para integração direta com IDEs Eclipse e RAID",
-      "Integração da inteligência artificial da empresa para geração automática de testes unitários",
-      "Criação de um ChatView interativo dentro da IDE, permitindo interação com a IA sem sair do ambiente de desenvolvimento",
-      "Automação da análise de classes Java e geração de testes unitários na pasta src/test/java",
-      "Estruturação técnica do plugin para compatibilidade com às versões do RAD/Eclipse",
-      "Melhoria da produtividade do desenvolvedor e padronização dos processos de teste e desenvolvimento",
-      "Validação e prototipagem do plugin com foco na experiência do usuário e integração segura com projetos existentes",
-    ],
-  },
+  id: 1,
+  title: "Voilà - Plugin para Eclipse e RAID",
+  description: "Plugin que integra Eclipse e RAID, permitindo interação com inteligência artificial para geração automática de testes unitários e melhoria da produtividade do desenvolvedor.",
+  summary: "Principal desenvolvedor do plugin Voilà, responsável pela arquitetura Java, integração com IDEs e sistemas legados, criação de ChatView interativo e automação de testes unitários, garantindo eficiência, rastreabilidade e segurança.",
+  technologies: ["Java"],
+  image: "/imagem/voila-blue.png",
+  status: "Produção",
+  period: "2026",
+  highlights: [
+    "Desenvolvimento do plugin Voilà para integração direta com IDEs Eclipse e RAID",
+    "Integração da inteligência artificial da empresa para geração automática de testes unitários",
+    "Criação de um ChatView interativo dentro da IDE, permitindo interação com a IA sem sair do ambiente de desenvolvimento",
+    "Automação da análise de classes Java e geração de testes unitários na pasta src/test/java",
+    "Estruturação técnica do plugin para compatibilidade com às versões do RAD/Eclipse",
+    "Melhoria da produtividade do desenvolvedor e padronização dos processos de teste e desenvolvimento",
+    "Validação e prototipagem do plugin com foco na experiência do usuário e integração segura com projetos existentes"
+  ]
+},
+
 
   {
     id: 2,
