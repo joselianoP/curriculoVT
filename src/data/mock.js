@@ -497,25 +497,26 @@ export const skills = {
 
 export const projects = [
   {
-  id: 1,
-  title: "Voilà - Plugin para Eclipse e RAID",
-  description: "Plugin que integra Eclipse e RAID, permitindo interação com inteligência artificial para geração automática de testes unitários e melhoria da produtividade do desenvolvedor.",
-  summary: "Principal desenvolvedor do plugin Voilà, responsável pela arquitetura Java, integração com IDEs e sistemas legados, criação de ChatView interativo e automação de testes unitários, garantindo eficiência, rastreabilidade e segurança.",
-  technologies: ["Java"],
-  image: "/imagem/voila-blue.png",
-  status: "Produção",
-  period: "2026",
-  highlights: [
-    "Desenvolvimento do plugin Voilà para integração direta com IDEs Eclipse e RAID",
-    "Integração da inteligência artificial da empresa para geração automática de testes unitários",
-    "Criação de um ChatView interativo dentro da IDE, permitindo interação com a IA sem sair do ambiente de desenvolvimento",
-    "Automação da análise de classes Java e geração de testes unitários na pasta src/test/java",
-    "Estruturação técnica do plugin para compatibilidade com às versões do RAD/Eclipse",
-    "Melhoria da produtividade do desenvolvedor e padronização dos processos de teste e desenvolvimento",
-    "Validação e prototipagem do plugin com foco na experiência do usuário e integração segura com projetos existentes"
-  ]
-},
-
+    id: 1,
+    title: "Voilà - Plugin para Eclipse e RAID",
+    description:
+      "Plugin que integra Eclipse e RAID, permitindo interação com inteligência artificial para geração automática de testes unitários e melhoria da produtividade do desenvolvedor.",
+    summary:
+      "Principal desenvolvedor do plugin Voilà, responsável pela arquitetura Java, integração com IDEs e sistemas legados, criação de ChatView interativo e automação de testes unitários, garantindo eficiência, rastreabilidade e segurança.",
+    technologies: ["Java"],
+    image: "/imagem/voila-blue.png",
+    status: "Produção",
+    period: "2026",
+    highlights: [
+      "Desenvolvimento do plugin Voilà para integração direta com IDEs Eclipse e RAID",
+      "Integração da inteligência artificial da empresa para geração automática de testes unitários",
+      "Criação de um ChatView interativo dentro da IDE, permitindo interação com a IA sem sair do ambiente de desenvolvimento",
+      "Automação da análise de classes Java e geração de testes unitários na pasta src/test/java",
+      "Estruturação técnica do plugin para compatibilidade com às versões do RAD/Eclipse",
+      "Melhoria da produtividade do desenvolvedor e padronização dos processos de teste e desenvolvimento",
+      "Validação e prototipagem do plugin com foco na experiência do usuário e integração segura com projetos existentes",
+    ],
+  },
 
   {
     id: 2,
@@ -937,5 +938,29 @@ export const certifications = [
     year: "2020",
     status: "Ativo",
     url: "#",
+  },
+];
+
+export const feedbacks = [
+  {
+    id: 1,
+    title: "Feedback Voilà - iniciativa ",
+    description:
+      "Plugin que integra Eclipse e RAID, permitindo interação com inteligência artificial para geração automática de testes unitários e melhoria da produtividade do desenvolvedor.",
+    summary:
+      "Principal desenvolvedor do plugin Voilà, responsável pela arquitetura Java, integração com IDEs e sistemas legados, criação de ChatView interativo e automação de testes unitários, garantindo eficiência, rastreabilidade e segurança.",
+    technologies: ["Java", "RAID"],
+    image: "/imagem/feedback_voila.png",
+    status: "Produção",
+    period: "2026",
+    highlights: [
+      "Criação do plugin Voilà para Eclipse/RAD a partir da iniciativa do Arquiteto de Soluções Joseliano P. de Araujo",
+      "Aplicação da tecnologia Voilà para desenvolvimento de um plugin de chat integrado ao ambiente Eclipse/RAD",
+      "Incorporação oficial do plugin ao portfólio de produtos da empresa a partir de março, com disponibilização para download",
+      "Implementação de autenticação segura e gerenciamento de tokens de acesso",
+      "Desenvolvimento de uma View interativa para interação com as funcionalidades da plataforma",
+      "Adição de ações inteligentes no menu de contexto de arquivos Java",
+      "Automação da geração de testes unitários JUnit diretamente pelo plugin",
+    ],
   },
 ];

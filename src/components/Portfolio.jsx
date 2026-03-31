@@ -8,6 +8,7 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import Feedback from "./sections/Feedback";
 
 const Portfolio = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -25,7 +26,8 @@ const Portfolio = () => {
         <Experience />
         <Education />
         <Skills />
-        <Projects />
+        <Projects />        
+        <Feedback />
         <Contact />
       </main>
       <Footer />
