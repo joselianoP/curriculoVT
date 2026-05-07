@@ -50,7 +50,7 @@ const About = () => {
                   {/* Key Stats */}
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 pt-8 border-t">
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-navy-600 mb-2">24+</div>
+                      <div className="text-3xl font-bold text-navy-600 mb-2">28</div>
                       <p className="text-gray-500 text-sm">Anos de Experiência</p>
                     </div>
                     <div className="text-center">

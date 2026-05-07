@@ -3,10 +3,10 @@
 export const personalInfo = {
   name: "Joseliano Araujo",
   title: "Líder Técnico e Desenvolvedor Full Stack",
-  experienceAnos: "24+",
+  experienceAnos: "28",
   experience: " anos de experiência",
   summary:
-    "Líder Técnico e Desenvolvedor Full Stack com mais de 24 anos de experiência em desenvolvimento de software, arquitetura de sistemas e gestão de equipes. Ampla atuação em Java, .NET, Angular e Node.js, com foco em modernização de sistemas, migração tecnológica e otimização de performance.",
+    "Líder Técnico e Desenvolvedor Full Stack com mais de 28 anos de experiência em desenvolvimento de software, arquitetura de sistemas e gestão de equipes. Ampla atuação em Java, .NET, Angular e Node.js, com foco em modernização de sistemas, migração tecnológica e otimização de performance.",
   location: "Rio de Janeiro, RJ",
   email: "joseliano@yahoo.com.br",
   phone: "+55 (21) 99766-0311",
