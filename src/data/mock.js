@@ -760,8 +760,42 @@ export const achievements = [
 ];
 
 export const certifications = [
+  
+
   {
     id: 1,
+    name: "Scrum Fundamentals Certified (SFC)",
+    issuer: "Scrum Alliance",
+    year: "2023",
+    status: "Ativo",
+    url: "https://www.scrumstudy.com/certification/verify?type=SFC&number=988667",
+  },
+  {
+    id: 2,
+    name: "Six Sigma Yellow Belt",
+    issuer: "Scrum Alliance",
+    year: "2023",
+    status: "Ativo",
+    url: "https://www.6sigmastudy.com/certification/verify?type=SSYB&number=868455",
+  },
+{
+    id: 3,
+    name: "Certificado Coaching",
+    issuer: "Udemy",
+    year: "2023",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-91fb2c37-b974-4756-b99a-9fd82d827f8b/",
+  },
+  {
+    id: 4,
+    name: "Mapeamento de Processos",
+    issuer: "TiExame",
+    year: "2020",
+    status: "Ativo",
+    url: "https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=SWZMRkdVdUM4bmt0VjU4NzhJYk5RQT09",
+  },
+  {
+    id: 5,
     name: "Kanban e Ferramentas Ágeis de Gestão de Projetos",
     issuer: "Fundação Getulio Vargas",
     year: "2025",
@@ -769,7 +803,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 2,
+    id: 6,
     name: "Conceitos fundamentais de IA",
     issuer: "DIO CorporationDIO Corporation",
     year: "2024",
@@ -777,7 +811,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 3,
+    id: 7,
     name: "Negotiation Associate",
     issuer: "Certificado Internacional",
     year: "2024",
@@ -785,7 +819,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 4,
+    id: 8,
     name: "Marketing Strategy Fundamentals",
     issuer: "Certificado Internacional",
     year: "2023",
@@ -793,7 +827,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 5,
+    id: 9,
     name: "AWS Cloud Practitioner",
     issuer: "Amazon Web Services",
     year: "2023",
@@ -802,24 +836,7 @@ export const certifications = [
   },
 
   {
-    id: 6,
-    name: "Scrum Fundamentals Certified (SFC)",
-    issuer: "Scrum Alliance",
-    year: "2023",
-    status: "Ativo",
-    url: "https://www.scrumstudy.com/certification/verify?type=SFC&number=988667",
-  },
-  {
-    id: 7,
-    name: "Six Sigma Yellow Belt",
-    issuer: "Scrum Alliance",
-    year: "2023",
-    status: "Ativo",
-    url: "https://www.6sigmastudy.com/certification/verify?type=SSYB&number=868455",
-  },
-
-  {
-    id: 8,
+    id: 10,
     name: "Marketing Strategy Fundamentals",
     issuer: "Oracle",
     year: "2023",
@@ -828,7 +845,7 @@ export const certifications = [
   },
 
   {
-    id: 9,
+    id: 11,
     name: "Introdução ao Node",
     issuer: "Digital Innovation",
     year: "2020",
@@ -836,7 +853,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 10,
+    id: 12,
     name: "Git e Controle de Versões",
     issuer: "Digital Innovation",
     year: "2020",
@@ -844,7 +861,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 11,
+    id: 13,
     name: "Melhores Práticas de Banco de Dados",
     issuer: "Digital Innovation",
     year: "2020",
@@ -852,7 +869,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 12,
+    id: 14,
     name: "Spring Boot",
     issuer: "Digital Innovation",
     year: "2020",
@@ -860,7 +877,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 13,
+    id: 15,
     name: "Expert Lesson à LGPD",
     issuer: "Digital Innovation",
     year: "2020",
@@ -868,7 +885,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 14,
+    id: 16,
     name: "Programação para internet com JavaScript",
     issuer: "Digital Innovation",
     year: "2020",
@@ -876,7 +893,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 15,
+    id: 17,
     name: "Projetos ágeis com SCRUM",
     issuer: "Digital Innovation",
     year: "2020",
@@ -884,23 +901,16 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 16,
+    id: 18,
     name: "Desenvolvimento back-end com Node.js",
     issuer: "Digital Innovation",
     year: "2020",
     status: "Ativo",
     url: "#",
   },
+  
   {
-    id: 17,
-    name: "Certificado Coaching",
-    issuer: "Udemy",
-    year: "2023",
-    status: "Ativo",
-    url: "https://www.udemy.com/certificate/UC-91fb2c37-b974-4756-b99a-9fd82d827f8b/",
-  },
-  {
-    id: 18,
+    id: 19,
     name: "Certificado ISO 27001 Foundation",
     issuer: "PMG",
     year: "2020",
@@ -908,7 +918,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 19,
+    id: 20,
     name: "Certificado ISO 27001 Professional",
     issuer: "PMG",
     year: "2020",
@@ -916,21 +926,14 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 20,
+    id: 21,
     name: "Certificado ITIL 4 Foundation",
     issuer: "PMG",
     year: "2020",
     status: "Ativo",
     url: "#",
   },
-  {
-    id: 21,
-    name: "Mapeamento de Processos",
-    issuer: "TiExame",
-    year: "2020",
-    status: "Ativo",
-    url: "https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=SWZMRkdVdUM4bmt0VjU4NzhJYk5RQT09",
-  },
+  
   {
     id: 22,
     name: "Como Priorizar Histórias de Usuário Eficazes",
