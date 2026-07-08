@@ -796,6 +796,60 @@ export const certifications = [
   },
   {
     id: 5,
+    name: "Fundamentos do Scrum",
+    issuer: "Udemy",
+    year: "2025",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-26452218-3881-4811-88ca-3810641ac9a1/",
+  },
+
+   {
+    id: 6,
+    name: "Fundamentos do Scrum",
+    issuer: "Udemy",
+    year: "2025",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-26452218-3881-4811-88ca-3810641ac9a1/",
+  },
+
+  {
+    id: 7,
+    name: "Gestão Fundamentos do Scrum",
+    issuer: "Udemy",
+    year: "2023",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-f56f0e38-d990-4839-ac3e-0cf2ece7b2d8/",
+  },
+
+  {
+    id: 8,
+    name: "Planejamento e Gestão de Projetos",
+    issuer: "Udemy",
+    year: "2024",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-150e3f46-1911-4aff-b1f0-51674962fa94/",
+  },
+
+  {
+    id: 9,
+    name: "Introduction to Kafka with Spring Boot",
+    issuer: "Udemy",
+    year: "2024",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-ec313f1c-ce28-45e5-93c1-2b4cb1c26118/",
+  },
+
+  {
+    id: 10,
+    name: "Introduction to Kafka with Spring Boot",
+    issuer: "Udemy",
+    year: "2024",
+    status: "Ativo",
+    url: "https://www.udemy.com/certificate/UC-ec313f1c-ce28-45e5-93c1-2b4cb1c26118/",
+  },
+
+  {
+    id: 11,
     name: "Kanban e Ferramentas Ágeis de Gestão de Projetos",
     issuer: "Fundação Getulio Vargas",
     year: "2025",
@@ -803,7 +857,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 6,
+    id: 12,
     name: "Conceitos fundamentais de IA",
     issuer: "DIO CorporationDIO Corporation",
     year: "2024",
@@ -811,7 +865,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 7,
+    id: 13,
     name: "Negotiation Associate",
     issuer: "Certificado Internacional",
     year: "2024",
@@ -819,7 +873,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 8,
+    id: 14,
     name: "Marketing Strategy Fundamentals",
     issuer: "Certificado Internacional",
     year: "2023",
@@ -827,7 +881,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 9,
+    id: 15,
     name: "AWS Cloud Practitioner",
     issuer: "Amazon Web Services",
     year: "2023",
@@ -836,7 +890,7 @@ export const certifications = [
   },
 
   {
-    id: 10,
+    id: 16,
     name: "Marketing Strategy Fundamentals",
     issuer: "Oracle",
     year: "2023",
@@ -845,7 +899,7 @@ export const certifications = [
   },
 
   {
-    id: 11,
+    id: 17,
     name: "Introdução ao Node",
     issuer: "Digital Innovation",
     year: "2020",
@@ -853,7 +907,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 12,
+    id: 18,
     name: "Git e Controle de Versões",
     issuer: "Digital Innovation",
     year: "2020",
@@ -861,7 +915,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 13,
+    id: 19,
     name: "Melhores Práticas de Banco de Dados",
     issuer: "Digital Innovation",
     year: "2020",
@@ -869,7 +923,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 14,
+    id: 20,
     name: "Spring Boot",
     issuer: "Digital Innovation",
     year: "2020",
@@ -877,7 +931,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 15,
+    id: 21,
     name: "Expert Lesson à LGPD",
     issuer: "Digital Innovation",
     year: "2020",
@@ -885,7 +939,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 16,
+    id: 22,
     name: "Programação para internet com JavaScript",
     issuer: "Digital Innovation",
     year: "2020",
@@ -893,7 +947,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 17,
+    id: 23,
     name: "Projetos ágeis com SCRUM",
     issuer: "Digital Innovation",
     year: "2020",
@@ -901,7 +955,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 18,
+    id: 24,
     name: "Desenvolvimento back-end com Node.js",
     issuer: "Digital Innovation",
     year: "2020",
@@ -910,7 +964,7 @@ export const certifications = [
   },
   
   {
-    id: 19,
+    id: 25,
     name: "Certificado ISO 27001 Foundation",
     issuer: "PMG",
     year: "2020",
@@ -918,7 +972,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 20,
+    id: 26,
     name: "Certificado ISO 27001 Professional",
     issuer: "PMG",
     year: "2020",
@@ -926,7 +980,7 @@ export const certifications = [
     url: "#",
   },
   {
-    id: 21,
+    id: 27,
     name: "Certificado ITIL 4 Foundation",
     issuer: "PMG",
     year: "2020",
@@ -935,7 +989,7 @@ export const certifications = [
   },
   
   {
-    id: 22,
+    id: 28,
     name: "Como Priorizar Histórias de Usuário Eficazes",
     issuer: "CanalValor",
     year: "2020",
