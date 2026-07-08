@@ -963,4 +963,25 @@ export const feedbacks = [
       "Automação da geração de testes unitários JUnit diretamente pelo plugin",
     ],
   },
+  {
+    id: 2,
+    title: "Feedback Desenvolvimento profissional e pessoal",
+    description:
+      "Plugin que integra Eclipse e RAID, permitindo interação com inteligência artificial para geração automática de testes unitários e melhoria da produtividade do desenvolvedor.",
+    summary: "",
+    technologies: [""],
+    image: "/imagem/feedback_voila_2026-07-08.png",
+    status: "Feedback",
+    period: "2026",
+    highlights: [
+      "Atuou como mentor desde o meu ingresso na empresa pelo programa Start, contribuindo significativamente para meu desenvolvimento profissional e aceleração da curva de aprendizado.",
+      "Sempre demonstrou grande disponibilidade para ensinar, compartilhar conhecimento e apoiar o time, esclarecendo dúvidas com paciência e clareza, independentemente da complexidade dos temas.",
+      "Soube equilibrar suporte e desafio, atribuindo atividades compatíveis com meu nível de conhecimento e, ao mesmo tempo, incentivando constantemente minha evolução técnica e profissional.",
+      "Contribuiu diretamente para o fortalecimento da minha autonomia, confiança e capacidade de resolução de problemas por meio de desafios progressivos e orientação contínua.",
+      "Destaca-se pela dedicação, senso de responsabilidade e postura de dono, mantendo elevado compromisso com a qualidade das entregas e com os resultados da equipe.",
+      "Possui forte capacidade analítica, identificando riscos, impactos e oportunidades de melhoria de forma consistente e estratégica nos projetos em que atua.",
+      "É um profissional altamente comprometido, com grande foco na solução de problemas e na geração de resultados, conciliando agilidade e qualidade nas entregas.",
+      "Gerou impacto positivo duradouro no meu crescimento profissional, compartilhando conhecimentos técnicos e comportamentais que levarei ao longo de toda a minha carreira.",
+    ],
+  },
 ];
