@@ -35,45 +35,58 @@ const About = () => {
                     </p>
 
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      Possuo sólida experiência em Java, Spring Boot, Angular,
-                      .NET, Node.js, APIs REST, microserviços e integração entre
-                      sistemas corporativos. Tenho atuação destacada na
-                      modernização de aplicações legadas, transformação digital,
-                      desenvolvimento de soluções escaláveis em ambientes AWS
-                      Cloud e otimização de desempenho de aplicações de alta
-                      disponibilidade e grande volume transacional.
+                      Minha experiência abrange todas as etapas do ciclo de
+                      desenvolvimento de software (SDLC), desde levantamento de
+                      requisitos, análise e definição técnica até
+                      desenvolvimento, testes, homologação, implantação e
+                      sustentação. Possuo sólida atuação em Java, Spring Boot,
+                      Angular, AngularJS, .NET, Node.js, APIs REST,
+                      microserviços, bancos de dados relacionais e integração
+                      entre sistemas corporativos.
                     </p>
 
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      Ao longo da carreira, exerci papel de referência técnica
-                      em equipes multidisciplinares, atuando na mentoria de
-                      desenvolvedores, revisão de código, definição de padrões e
-                      boas práticas, apoio à tomada de decisões técnicas e
-                      disseminação do conhecimento. Minha liderança é baseada na
-                      colaboração, no desenvolvimento das equipes e na busca
-                      contínua pela excelência técnica e qualidade das entregas.
+                      Ao longo dos anos, liderei iniciativas de modernização
+                      tecnológica, migração de sistemas legados, construção de
+                      arquiteturas baseadas em APIs e microsserviços, integração
+                      com plataformas corporativas e evolução de soluções
+                      críticas para o negócio. Tenho experiência na
+                      implementação de aplicações escaláveis em ambientes AWS
+                      Cloud, sempre com foco em performance, qualidade,
+                      segurança e manutenibilidade.
                     </p>
 
                     <p className="text-gray-600 leading-relaxed mb-4">
-                      Participei de projetos estratégicos para organizações como
-                      Bradesco Seguros, Caixa Econômica Federal, Oi, ANS e
-                      Unimed, contribuindo para iniciativas de modernização
-                      tecnológica, integração de sistemas, otimização de
-                      processos e evolução de plataformas críticas de negócio.
-                      Minha experiência combina visão técnica, capacidade
-                      analítica e foco na entrega de soluções que geram valor
-                      para clientes e organizações.
+                      Como líder técnico, atuei na mentoria e desenvolvimento de
+                      equipes, revisão de código, definição de padrões de
+                      arquitetura e boas práticas de engenharia de software,
+                      promovendo colaboração, qualidade técnica e melhoria
+                      contínua. Minha atuação combina visão estratégica com
+                      forte perfil hands-on, mantendo participação ativa no
+                      desenvolvimento e na resolução de desafios tecnológicos
+                      complexos.
+                    </p>
+
+                    <p className="text-gray-600 leading-relaxed mb-4">
+                      Durante minha carreira, participei de projetos
+                      estratégicos para organizações como Bradesco Seguros,
+                      Caixa Econômica Federal, Oi, ANS e Unimed Rio,
+                      contribuindo para iniciativas de transformação digital,
+                      otimização de processos, integração de sistemas e evolução
+                      de plataformas corporativas utilizadas por milhares de
+                      usuários.
                     </p>
 
                     <p className="text-gray-600 leading-relaxed">
                       Atualmente, atuo como Especialista Técnico na Capgemini,
-                      alocado na Bradesco Seguros, desenvolvendo e evoluindo
-                      aplicações corporativas utilizando Java, Spring Boot,
-                      Angular, APIs REST, microserviços e AWS Cloud. Além da
-                      atuação hands-on no desenvolvimento, colaboro na definição
-                      de soluções técnicas, melhoria de performance, qualidade
-                      de software e evolução contínua dos ambientes
-                      corporativos.
+                      desenvolvendo e evoluindo soluções para a Bradesco Seguros
+                      utilizando Java, Spring Boot, Angular, APIs REST,
+                      microserviços e AWS Cloud. Além da atuação técnica,
+                      colaboro na definição de soluções, melhoria de
+                      performance, modernização de aplicações e disseminação de
+                      boas práticas de desenvolvimento, contribuindo para a
+                      entrega de software de alta qualidade e geração de valor
+                      para o negócio.
                     </p>
                   </div>
 
