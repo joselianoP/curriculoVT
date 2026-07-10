@@ -6,7 +6,7 @@ export const personalInfo = {
   experienceAnos: "28",
   experience: " anos de experiência",
   summary:
-    "Líder Técnico e Desenvolvedor Full Stack com mais de 28 anos de experiência em desenvolvimento de software, arquitetura de sistemas e gestão de equipes. Ampla atuação em Java, .NET, Angular e Node.js, com foco em modernização de sistemas, migração tecnológica e otimização de performance.",
+    "Desenvolvedor Full Stack Sênior e Líder Técnico com mais de 28 anos de experiência em desenvolvimento de software, especializado em Java, Spring Boot, Angular, .NET, Node.js, APIs REST, microserviços e Cloud AWS.<br>Atuação em sistemas corporativos de grande porte para os setores financeiro, seguros, telecomunicações, saúde e governo, participando da construção, modernização e evolução de aplicações críticas com alta disponibilidade e grande volume transacional.<br>Experiência consolidada em liderança técnica de equipes, mentoria de desenvolvedores, revisão de código, definição de padrões de desenvolvimento e apoio na tomada de decisões arquiteturais, mantendo forte atuação hands-on no desenvolvimento de software.<br>Especialista em integração de sistemas, modernização de aplicações legadas, otimização de performance, qualidade de código e implementação de soluções escaláveis alinhadas às necessidades do negócio.<br>Movido por desafios tecnológicos, aprendizado contínuo e pela entrega de soluções que combinam excelência técnica, inovação e geração de valor para clientes e organizações.",
   location: "Rio de Janeiro, RJ",
   email: "joseliano@yahoo.com.br",
   phone: "+55 (21) 99766-0311",
