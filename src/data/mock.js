@@ -17,7 +17,9 @@ export const personalInfo = {
   },
   profileImage:
     "https://drive.google.com/file/d/18TnkkBBBHEZAkr-n_liMSotwrWim_wxG/view?usp=sharing",
-};
+  curriculoPDF:"https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=drive_link"
+
+  };
 
 export const experiences = [
   {

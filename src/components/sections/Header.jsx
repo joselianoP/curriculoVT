@@ -83,7 +83,7 @@ const Header = () => {
               className="bg-navy-600 hover:bg-navy-700 text-white"
               onClick={() => {
                 // Mock download action
-                window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=drive_link", "_blank");
+                window.open(personalInfo.curriculoPDF, "_blank");
               }}
             >
               <Download size={16} className="mr-2" />
@@ -137,7 +137,7 @@ const Header = () => {
                   size="sm"
                   className="bg-navy-600 hover:bg-navy-700 text-white flex-1"
                   onClick={() => {
-                    window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
+                    window.open(personalInfo.curriculoPDF, "_blank");
                   }}
                 >
                   <Download size={16} className="mr-2" />

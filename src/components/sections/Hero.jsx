@@ -53,7 +53,7 @@ const Hero = () => {
                   size="lg"
                   className="border-navy-600 text-navy-600 hover:bg-navy-600 hover:text-white px-8 py-3"
                   onClick={() => {
-                    window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=sharing", "_blank");
+                    window.open(personalInfo.curriculoPDF, "_blank");
                   }}
                 >
                   <Download size={20} className="mr-2" />

@@ -159,7 +159,7 @@ const Contact = () => {
                       <Button
                         className="w-full bg-white text-navy-600 hover:bg-navy-50"
                         onClick={() => {
-                          window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=drive_link", "_blank");
+                          window.open("personalInfo.curriculoPDF", "_blank");
                         }}
                       >
                         <Download size={16} className="mr-2" />
@@ -305,7 +305,7 @@ const Contact = () => {
                     size="lg"
                     className="border-navy-600 text-navy-600 hover:bg-navy-600 hover:text-white px-8"
                     onClick={() => {
-                      window.open("https://drive.google.com/file/d/1NEXdp4LLLSzGAEDF2Uu8m4dyEwaeBeq8/view?usp=drive_link", "_blank");
+                      window.open(personalInfo.curriculoPDF, "_blank");
                     }}
                   >
                     <Download size={20} className="mr-2" />
