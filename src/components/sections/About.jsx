@@ -1,11 +1,16 @@
-import React from "react";
+import React,  { useState }  from "react";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
-import { MapPin, Calendar, Award } from "lucide-react";
+import { MapPin, Calendar, Award , 
+  ChevronDown,  ChevronUp,} from "lucide-react";
 import { personalInfo, achievements } from "../../data/mock";
 import { Globe } from "lucide-react";
 
 const About = () => {
+
+   const [expanded, setExpanded] = useState(false);
+   const visibleAchievements = expanded ? achievements : achievements.slice(0, 3);
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -127,7 +132,7 @@ const About = () => {
                   </h3>
 
                   <div className="space-y-4">
-                    {achievements.map((achievement) => (
+                    {visibleAchievements.map((achievement) => (
                       <div
                         key={achievement.id}
                         className="flex items-start space-x-4 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors"
@@ -164,6 +169,23 @@ const About = () => {
                         </div>
                       </div>
                     ))}
+
+                     {achievements.length > 3 && (
+                  <button
+                    onClick={() => setExpanded(!expanded)}
+                    className="w-full flex items-center justify-center mt-2 py-2 text-sm font-medium text-navy-700 hover:text-navy-500 transition-colors"
+                  >
+                    {expanded ? (
+                      <>
+                        Ver menos <ChevronUp className="ml-1 w-4 h-4" />
+                      </>
+                    ) : (
+                      <>
+                        Ver mais <ChevronDown className="ml-1 w-4 h-4" />
+                      </>
+                    )}
+                  </button>
+                )}
                   </div>
                 </CardContent>
               </Card>

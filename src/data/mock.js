@@ -656,7 +656,7 @@ export const projects = [
 ];
 
 export const achievements = [
-  [
+  
     {
       id: 1,
       title: "Adequação dos Sistemas BARE – CPF e Nome do Corretor",
@@ -758,7 +758,7 @@ export const achievements = [
       organization: "Ministério da Saúde",
       url: "#",
     },
-  ],
+  
 ];
 
 export const certifications = [
