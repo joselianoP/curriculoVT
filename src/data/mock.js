@@ -27,8 +27,8 @@ export const experiences = [
     company: "Capgemini",
     position: "Especialista Java",
     client: "Bradesco Seguros",
-    period: "Mai 2021 - Atual",
-    duration: "3+ anos",
+    period: "Mai 2021 - Julho 2026",
+    duration: "5 anos",
     location: "Rio de Janeiro, RJ",
     description:
       "Especialista Java na implementação e manutenção de sistemas, garantindo escalabilidade, performance e segurança. Otimização de APIs com redução de 60% no tempo de resposta.",
