@@ -1,15 +1,15 @@
-import React,  { useState }  from "react";
+import React, { useState } from "react";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
-import { MapPin, Calendar, Award , 
-  ChevronDown,  ChevronUp,} from "lucide-react";
+import { MapPin, Calendar, Award, ChevronDown, ChevronUp } from "lucide-react";
 import { personalInfo, achievements } from "../../data/mock";
 import { Globe } from "lucide-react";
 
 const About = () => {
-
-   const [expanded, setExpanded] = useState(false);
-   const visibleAchievements = expanded ? achievements : achievements.slice(0, 3);
+  const [expanded, setExpanded] = useState(false);
+  const visibleAchievements = expanded
+    ? achievements
+    : achievements.slice(0, 3);
 
   return (
     <section id="about" className="py-20 bg-white">
@@ -83,15 +83,16 @@ const About = () => {
                     </p>
 
                     <p className="text-gray-600 leading-relaxed">
-                      Atualmente, atuo como Especialista Técnico na Capgemini,
-                      desenvolvendo e evoluindo soluções para a Bradesco Seguros
-                      utilizando Java, Spring Boot, Angular, APIs REST,
-                      microserviços e AWS Cloud. Além da atuação técnica,
-                      colaboro na definição de soluções, melhoria de
-                      performance, modernização de aplicações e disseminação de
-                      boas práticas de desenvolvimento, contribuindo para a
-                      entrega de software de alta qualidade e geração de valor
-                      para o negócio.
+                      Atuei como Especialista Técnico na Capgemini, participando
+                      do desenvolvimento e da evolução de soluções para a
+                      Bradesco Seguros, utilizando Java, Spring Boot, Angular,
+                      APIs REST, arquitetura de microsserviços e AWS Cloud. Além
+                      da atuação técnica, contribuí para a definição de
+                      soluções, melhoria de performance, modernização de
+                      aplicações e disseminação de boas práticas de
+                      desenvolvimento. Essa experiência permitiu apoiar a
+                      entrega de software de alta qualidade, escalabilidade e
+                      geração de valor para o negócio.
                     </p>
                   </div>
 
@@ -170,22 +171,22 @@ const About = () => {
                       </div>
                     ))}
 
-                     {achievements.length > 3 && (
-                  <button
-                    onClick={() => setExpanded(!expanded)}
-                    className="w-full flex items-center justify-center mt-2 py-2 text-sm font-medium text-navy-700 hover:text-navy-500 transition-colors"
-                  >
-                    {expanded ? (
-                      <>
-                        Ver menos <ChevronUp className="ml-1 w-4 h-4" />
-                      </>
-                    ) : (
-                      <>
-                        Ver mais <ChevronDown className="ml-1 w-4 h-4" />
-                      </>
+                    {achievements.length > 3 && (
+                      <button
+                        onClick={() => setExpanded(!expanded)}
+                        className="w-full flex items-center justify-center mt-2 py-2 text-sm font-medium text-navy-700 hover:text-navy-500 transition-colors"
+                      >
+                        {expanded ? (
+                          <>
+                            Ver menos <ChevronUp className="ml-1 w-4 h-4" />
+                          </>
+                        ) : (
+                          <>
+                            Ver mais <ChevronDown className="ml-1 w-4 h-4" />
+                          </>
+                        )}
+                      </button>
                     )}
-                  </button>
-                )}
                   </div>
                 </CardContent>
               </Card>
