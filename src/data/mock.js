@@ -705,7 +705,7 @@ export const achievements = [
       description:
         "Liderou iniciativa que reduziu em 80% o backlog de erros do sistema SIURB.",
       year: "2017",
-      organization: "Global Web",
+      organization: "Global Web / Caixa Econômica Federal",
       url: "#",
     },
 
