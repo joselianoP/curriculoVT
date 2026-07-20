@@ -324,7 +324,6 @@ export const skills = {
     { name: "Spring MVC", level: 90, category: "Backend" },
     { name: "Spring Boot", level: 93, category: "Backend" },
     { name: "Spring Data JPA", level: 88, category: "Backend" },
-    { name: "Spring Security", level: 87, category: "Backend" },
     { name: "Quarkus", level: 80, category: "Backend" },
     { name: "Hibernate", level: 90, category: "Backend" },
     { name: "JSF (JavaServer Faces)", level: 85, category: "Backend" },
@@ -338,7 +337,6 @@ export const skills = {
     { name: "XStream", level: 25, category: "Backend" },
     { name: "iReport", level: 70, category: "Backend" },
     { name: "JasperReports", level: 78, category: "Backend" },
-    { name: "JUnit", level: 85, category: "Backend" },
     { name: "Maven", level: 80, category: "Backend" },
     { name: ".NET Framework", level: 88, category: "Backend" },
     { name: "Entity Framework", level: 82, category: "Backend" },
@@ -350,13 +348,13 @@ export const skills = {
     { name: "CodeIgniter", level: 78, category: "Backend" },
     { name: "CakePHP", level: 76, category: "Backend" },
     { name: "PHPUnit", level: 72, category: "Backend" },
+    { name: "Node.js", level: 82, category: "Backend" },
 
     // ===== FRONTEND =====
     { name: "Angular (v8, v9, v10, v16)", level: 80, category: "Frontend" },
     { name: "AngularJS", level: 85, category: "Frontend" },
     { name: "JavaScript", level: 90, category: "Frontend" },
     { name: "TypeScript", level: 88, category: "Frontend" },
-    { name: "Node.js", level: 82, category: "Frontend" },
     { name: "jQuery", level: 82, category: "Frontend" },
     { name: "VBScript", level: 70, category: "Frontend" },
     { name: "Bootstrap", level: 82, category: "Frontend" },
@@ -377,7 +375,6 @@ export const skills = {
     { name: "Docker", level: 22, category: "DevOps" },
     { name: "Kubernetes", level: 20, category: "DevOps" },
     { name: "Containers", level: 20, category: "DevOps" },
-    { name: "RabbitMQ", level: 15, category: "DevOps" },
 
     // ===== SECURITY =====
     { name: "OAuth 2.0", level: 65, category: "Security" },
@@ -387,7 +384,10 @@ export const skills = {
       name: "LGPD (Lei Geral de Proteção de Dados)",
       level: 75,
       category: "Security",
-    },
+    },    
+    { name: "Spring Security", level: 87, category: "Security" },
+    { name: "Fortify", level: 80, category: "Security" },    
+
 
     // ===== TOOLS =====
     { name: "Git", level: 90, category: "Tools" },
@@ -424,7 +424,7 @@ export const skills = {
 
     // ===== QUALITY =====
     { name: "SonarQube", level: 85, category: "Quality" },
-    { name: "Fortify", level: 80, category: "Quality" },
+    { name: "JUnit", level: 85, category: "Quality" },
 
     // ===== DATA MODELING =====
     {
@@ -437,8 +437,6 @@ export const skills = {
       level: 78,
       category: "Modeling",
     },
-
-    ,
     {
       name: "Liderança Técnica (Tech Lead)",
       level: 90,
@@ -497,8 +495,9 @@ export const skills = {
     {
       name: "Amazon SQS",
       level: 9,
-      category: "Messaging",
-    },
+      category: "Messaging",    },
+    
+    { name: "RabbitMQ", level: 6, category: "Messaging" },
   ],
   soft: [
     { name: "Liderança Técnica", level: 95 },
