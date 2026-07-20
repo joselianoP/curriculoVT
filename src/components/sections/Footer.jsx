@@ -136,7 +136,7 @@ const Footer = () => {
               <div className="flex flex-wrap justify-center gap-2">
                 {[
                   "Java", "Spring Boot", "Angular", "Node.js", ".NET", "AWS", 
-                  "Docker", "Kubernetes", "SQL Server", "Oracle", "MongoDB", "Git"
+                  "Docker", "Kubernetes", "SQL Server", "Oracle", "Git"
                 ].map((tech) => (
                   <span
                     key={tech}
