@@ -335,6 +335,19 @@ export const skills = {
       category: "Architecture",
     },
 
+    // ===== AI =====
+    { name: "ChatGPT", level: 95, category: "IA" },
+    { name: "Microsoft Copilot", level: 90, category: "IA" },
+    { name: "GitHub Copilot", level: 85, category: "IA" },
+    { name: "Prompt Engineering", level: 85, category: "IA" },
+    { name: "Code Generation", level: 90, category: "IA" },
+    { name: "Refatoração Assistida por IA", level: 90, category: "IA" },
+    { name: "Code Review Assistido por IA", level: 85, category: "IA" },
+    { name: "Documentação Assistida por IA", level: 90, category: "IA" },
+    { name: "Análise de Requisitos com IA", level: 85, category: "IA" },
+    { name: "Geração de Testes com IA", level: 80, category: "IA" },
+
+
     // ===== JAVA =====
     { name: "Java", level: 95, category: "Java" },
     { name: "Spring Framework", level: 92, category: "Java" },
@@ -364,7 +377,7 @@ export const skills = {
     { name: "ASP.NET", level: 85, category: "Microsoft" },
     { name: "ASP.NET MVC", level: 82, category: "Microsoft" },
     { name: ".NET Framework", level: 88, category: "Microsoft" }, 
-    { name: ".NET (Core/.NET 5+)", level: 45, category: ".Microsoft" },
+    { name: ".NET (Core/.NET 5+)", level: 45, category: "Microsoft" },
     { name: "Entity Framework", level: 82, category: "Microsoft" },
     { name: "Web Services", level: 80, category: "Microsoft" },
 
