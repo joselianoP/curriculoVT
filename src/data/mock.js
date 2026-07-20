@@ -357,8 +357,15 @@ export const skills = {
 
     // ===== .NET =====
     { name: ".NET Framework", level: 88, category: ".NET" },
-    { name: "VB.NET", level: 80, category: ".NET" },
+    { name: ".NET (Core/.NET 5+)", level: 60, category: ".NET" },
+    { name: "ASP.NET", level: 85, category: ".NET" },
+    { name: "ASP.NET MVC", level: 82, category: ".NET" },
     { name: "Entity Framework", level: 82, category: ".NET" },
+    { name: "VB.NET", level: 85, category: ".NET" },
+    { name: "C#", level: 80, category: ".NET" },
+    { name: "WCF", level: 70, category: ".NET" },
+    { name: "Web Services", level: 80, category: ".NET" },
+
 
     // ===== PHP =====
     { name: "PHP", level: 85, category: "PHP" },
