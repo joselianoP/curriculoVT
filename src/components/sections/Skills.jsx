@@ -2,26 +2,32 @@ import React, { useState } from "react";
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
+
 import {
-  BrainCircuit,
+  Code, 
+  Globe,    
+  Settings, 
+  Award ,
+  Server,
   Coffee,
-  Blocks,
-  Code2,
   Monitor,
   Database,
   Cloud,
-  Workflow,
-  ShieldCheck,
+  GitBranch,
+  Shield,
   Bug,
   FileBarChart,
-  GitBranch,
-  Server,
   Wrench,
   PencilRuler,
   GraduationCap,
   Users,
+  Brain,
   Bot,
+  Blocks,
+  Hammer,
 } from "lucide-react";
+
+
 
 import { skills } from "../../data/mock";
 
@@ -38,13 +44,33 @@ const Skills = () => {
   }, {});
 
   const categoryIcons = {
-    Backend: <Server size={20} />,
-    Frontend: <Code size={20} />,
-    Database: <Database size={20} />,
-    Cloud: <Cloud size={20} />,
-    DevOps: <Settings size={20} />,
-    Tools: <Settings size={20} />,
-    Quality: <Award size={20} />
+    Architecture: <Brain size={20} />,
+
+  Java: <Coffee size={20} />,
+  Microsoft: <Blocks size={20} />,
+  PHP: <Hammer size={20} />,
+
+  Frontend: <Monitor size={20} />,
+  Database: <Database size={20} />,
+
+  Cloud: <Cloud size={20} />,
+  DevOps: <GitBranch size={20} />,
+  Messaging: <GitBranch size={20} />,
+
+  Security: <Shield size={20} />,
+  Quality: <Bug size={20} />,
+  Reporting: <FileBarChart size={20} />,
+
+  Modeling: <PencilRuler size={20} />,
+
+  Tools: <Wrench size={20} />,
+  Servers: <Server size={20} />,
+  IDE: <Monitor size={20} />,
+
+  Methodology: <GraduationCap size={20} />,
+  Leadership: <Users size={20} />,
+
+  AI: <Bot size={20} />,
   };
 
   const getSkillColor = (level) => {
