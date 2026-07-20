@@ -317,8 +317,25 @@ export const education = [
 ];
 
 export const skills = {
-  technical: [
-    // ===== BACKEND - Java & .NET =====
+  technical:  [
+    // ===== ARCHITECTURE =====
+    {
+      name: "Definição de Arquitetura e Soluções",
+      level: 70,
+      category: "Architecture",
+    },
+    {
+      name: "Gestão de Riscos e Impactos Técnicos",
+      level: 98,
+      category: "Architecture",
+    },
+    {
+      name: "Análise de Requisitos e Negócio",
+      level: 95,
+      category: "Architecture",
+    },
+
+    // ===== BACKEND =====
     { name: "Java", level: 95, category: "Backend" },
     { name: "Spring Framework", level: 92, category: "Backend" },
     { name: "Spring MVC", level: 90, category: "Backend" },
@@ -347,7 +364,6 @@ export const skills = {
     { name: "Laravel", level: 68, category: "Backend" },
     { name: "CodeIgniter", level: 78, category: "Backend" },
     { name: "CakePHP", level: 76, category: "Backend" },
-    { name: "PHPUnit", level: 72, category: "Backend" },
     { name: "Node.js", level: 82, category: "Backend" },
 
     // ===== FRONTEND =====
@@ -369,64 +385,36 @@ export const skills = {
     { name: "Oracle Database", level: 85, category: "Database" },
     { name: "IBM DB2", level: 80, category: "Database" },
 
-    // ===== CLOUD & DEVOPS =====
+    // ===== CLOUD =====
     { name: "AWS (Amazon Web Services)", level: 25, category: "Cloud" },
-    { name: "Azure (Microsoft Azure)", level: 15, category: "Cloud" },
+    { name: "Microsoft Azure", level: 15, category: "Cloud" },
+
+    // ===== DEVOPS =====
     { name: "Docker", level: 22, category: "DevOps" },
     { name: "Kubernetes", level: 20, category: "DevOps" },
     { name: "Containers", level: 20, category: "DevOps" },
 
+    // ===== MESSAGING =====
+    { name: "Kafka", level: 15, category: "Messaging" },
+    { name: "RabbitMQ", level: 6, category: "Messaging" },
+    { name: "IBM MQ", level: 10, category: "Messaging" },
+    { name: "Amazon SQS", level: 9, category: "Messaging" },
+
     // ===== SECURITY =====
+    { name: "Spring Security", level: 87, category: "Security" },
     { name: "OAuth 2.0", level: 65, category: "Security" },
     { name: "JWT (JSON Web Token)", level: 52, category: "Security" },
     { name: "SSO (Single Sign-On)", level: 46, category: "Security" },
-    {
-      name: "LGPD (Lei Geral de Proteção de Dados)",
-      level: 75,
-      category: "Security",
-    },    
-    { name: "Spring Security", level: 87, category: "Security" },
-    { name: "Fortify", level: 80, category: "Security" },    
-
-
-    // ===== TOOLS =====
-    { name: "Git", level: 90, category: "Tools" },
-    { name: "GitHub", level: 90, category: "Tools" },
-    { name: "GitLab", level: 90, category: "Tools" },
-    { name: "Bitbucket", level: 85, category: "Tools" },
-    { name: "Bamboo", level: 80, category: "Tools" },
-    { name: "SVN (Subversion)", level: 78, category: "Tools" },    
-    { name: "Jira", level: 65, category: "Tools" },
-
-
-    // ===== SERVERS =====
-    { name: "IBM WebSphere", level: 80, category: "Servers" },
-    { name: "Microsoft IIS", level: 82, category: "Servers" },
-    { name: "Apache Tomcat", level: 90, category: "Servers" },
-    { name: "JBoss/WildFly", level: 85, category: "Servers" },
-    { name: "Jetty", level: 75, category: "Servers" },
-
-    // ===== IDEs =====
-    { name: "Eclipse IDE", level: 90, category: "IDE" },
-    { name: "Visual Studio", level: 88, category: "IDE" },
-    { name: "VS Code (Visual Studio Code)", level: 90, category: "IDE" },
-    {
-      name: "IBM RAD (Rational Application Developer)",
-      level: 80,
-      category: "IDE",
-    },
-
-    // ===== METHODOLOGIES =====
-    { name: "Scrum", level: 45, category: "Methodology" },
-    { name: "Kanban", level: 60, category: "Methodology" },
-    { name: "Waterfall (Cascata)", level: 75, category: "Methodology" },
-    { name: "Lean Redesign (LR)", level: 70, category: "Methodology" },
+    { name: "LGPD (Lei Geral de Proteção de Dados)", level: 75, category: "Security" },
+    { name: "Fortify", level: 80, category: "Security" },
 
     // ===== QUALITY =====
     { name: "SonarQube", level: 85, category: "Quality" },
     { name: "JUnit", level: 85, category: "Quality" },
+    { name: "PHPUnit", level: 72, category: "Quality" },
 
-    // ===== DATA MODELING =====
+    // ===== MODELING =====
+    { name: "UML", level: 90, category: "Modeling" },
     {
       name: "MER (Modelo Entidade-Relacionamento)",
       level: 85,
@@ -437,14 +425,43 @@ export const skills = {
       level: 78,
       category: "Modeling",
     },
+
+    // ===== TOOLS =====
+    { name: "Git", level: 90, category: "Tools" },
+    { name: "GitHub", level: 90, category: "Tools" },
+    { name: "GitLab", level: 90, category: "Tools" },
+    { name: "Bitbucket", level: 85, category: "Tools" },
+    { name: "Bamboo", level: 80, category: "Tools" },
+    { name: "SVN (Subversion)", level: 78, category: "Tools" },
+    { name: "Jira", level: 65, category: "Tools" },
+
+    // ===== SERVERS =====
+    { name: "IBM WebSphere", level: 80, category: "Servers" },
+    { name: "Microsoft IIS", level: 82, category: "Servers" },
+    { name: "Apache Tomcat", level: 90, category: "Servers" },
+    { name: "JBoss/WildFly", level: 85, category: "Servers" },
+    { name: "Jetty", level: 75, category: "Servers" },
+
+    // ===== IDE =====
+    { name: "Eclipse IDE", level: 90, category: "IDE" },
+    { name: "Visual Studio", level: 88, category: "IDE" },
+    { name: "VS Code (Visual Studio Code)", level: 90, category: "IDE" },
+    {
+      name: "IBM RAD (Rational Application Developer)",
+      level: 80,
+      category: "IDE",
+    },
+
+    // ===== METHODOLOGY =====
+    { name: "Scrum", level: 70, category: "Methodology" },
+    { name: "Kanban", level: 60, category: "Methodology" },
+    { name: "Waterfall (Cascata)", level: 75, category: "Methodology" },
+    { name: "Lean Redesign (LR)", level: 70, category: "Methodology" },
+
+    // ===== LEADERSHIP =====
     {
       name: "Liderança Técnica (Tech Lead)",
       level: 90,
-      category: "Leadership",
-    },
-    {
-      name: "Definição de Arquitetura e Soluções",
-      level: 70,
       category: "Leadership",
     },
     {
@@ -468,36 +485,10 @@ export const skills = {
       category: "Leadership",
     },
     {
-      name: "Gestão de Riscos e Impactos Técnicos",
-      level: 98,
-      category: "Leadership",
-    },
-    {
-      name: "Análise de Requisitos e Negócio",
-      level: 95,
-      category: "Leadership",
-    },
-    {
       name: "Integração entre Times (Dev, QA, Negócio)",
       level: 96,
       category: "Leadership",
     },
-    {
-      name: "Kafka",
-      level: 15,
-      category: "Messaging",
-    },
-    {
-      name: "IBM MQ",
-      level: 10,
-      category: "Messaging",
-    },
-    {
-      name: "Amazon SQS",
-      level: 9,
-      category: "Messaging",    },
-    
-    { name: "RabbitMQ", level: 6, category: "Messaging" },
   ],
   soft: [
     { name: "Liderança Técnica", level: 95 },
