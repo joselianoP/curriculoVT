@@ -373,7 +373,8 @@ export const skills = {
 
     // ===== CLOUD & DEVOPS =====
     { name: "AWS (Amazon Web Services)", level: 25, category: "Cloud" },
-    { name: "Docker", level: 45, category: "DevOps" },
+    { name: "Azure (Microsoft Azure)", level: 15, category: "Cloud" },
+    { name: "Docker", level: 22, category: "DevOps" },
     { name: "Kubernetes", level: 20, category: "DevOps" },
     { name: "Containers", level: 20, category: "DevOps" },
     { name: "RabbitMQ", level: 15, category: "DevOps" },
@@ -394,7 +395,9 @@ export const skills = {
     { name: "GitLab", level: 90, category: "Tools" },
     { name: "Bitbucket", level: 85, category: "Tools" },
     { name: "Bamboo", level: 80, category: "Tools" },
-    { name: "SVN (Subversion)", level: 78, category: "Tools" },
+    { name: "SVN (Subversion)", level: 78, category: "Tools" },    
+    { name: "Jira", level: 65, category: "Tools" },
+
 
     // ===== SERVERS =====
     { name: "IBM WebSphere", level: 80, category: "Servers" },
@@ -481,14 +484,29 @@ export const skills = {
       level: 96,
       category: "Leadership",
     },
+    {
+      name: "Kafka",
+      level: 15,
+      category: "Messaging",
+    },
+    {
+      name: "IBM MQ",
+      level: 10,
+      category: "Messaging",
+    },
+    {
+      name: "Amazon SQS",
+      level: 9,
+      category: "Messaging",
+    },
   ],
   soft: [
     { name: "Liderança Técnica", level: 95 },
     { name: "Mentoria", level: 90 },
-    { name: "Gestão de Projetos", level: 88 },
+    { name: "Gestão de Projetos", level: 45 },
     { name: "Comunicação", level: 85 },
-    { name: "Resolução de Problemas", level: 93 },
-    { name: "Trabalho em Equipe", level: 90 },
+    { name: "Resolução de Problemas", level: 99 },
+    { name: "Trabalho em Equipe", level: 98 },
   ],
   languages: [
     { name: "Português", level: 98 },
