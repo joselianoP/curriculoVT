@@ -356,15 +356,17 @@ export const skills = {
     { name: "Maven", level: 80, category: "Java" },
 
     // ===== .NET =====
-    { name: ".NET Framework", level: 88, category: ".NET" },
-    { name: ".NET (Core/.NET 5+)", level: 60, category: ".NET" },
-    { name: "ASP.NET", level: 85, category: ".NET" },
-    { name: "ASP.NET MVC", level: 82, category: ".NET" },
-    { name: "Entity Framework", level: 82, category: ".NET" },
-    { name: "VB.NET", level: 85, category: ".NET" },
-    { name: "C#", level: 80, category: ".NET" },
-    { name: "WCF", level: 70, category: ".NET" },
-    { name: "Web Services", level: 80, category: ".NET" },
+
+    { name: "VB6 (Visual Basic 6)", level: 85, category: "Microsoft" },
+    { name: "VB.NET", level: 80, category: "Microsoft" },
+    { name: "C#", level: 85, category: "Microsoft" },
+    { name: "ASP Clássico", level: 85, category: "Microsoft" },
+    { name: "ASP.NET", level: 85, category: "Microsoft" },
+    { name: "ASP.NET MVC", level: 82, category: "Microsoft" },
+    { name: ".NET Framework", level: 88, category: "Microsoft" }, 
+    { name: ".NET (Core/.NET 5+)", level: 45, category: ".Microsoft" },
+    { name: "Entity Framework", level: 82, category: "Microsoft" },
+    { name: "Web Services", level: 80, category: "Microsoft" },
 
 
     // ===== PHP =====
