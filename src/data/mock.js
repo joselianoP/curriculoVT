@@ -140,8 +140,8 @@ export const experiences = [
       "Participação ativa em todos os estágios do ciclo de vida do software, desde levantamento de requisitos até entrega final, garantindo soluções confiáveis e sustentáveis",
     ],
     technologies: [
-      "Java 6-11",
-      "Angular 8-12",
+      "Java",
+      "Angular",
       "Spring Boot",
       "Hibernate/JPA",
       "SonarQube",
@@ -335,19 +335,6 @@ export const skills = {
       category: "Architecture",
     },
 
-    // ===== AI =====
-    { name: "ChatGPT", level: 95, category: "IA" },
-    { name: "Microsoft Copilot", level: 90, category: "IA" },
-    { name: "GitHub Copilot", level: 85, category: "IA" },
-    { name: "Prompt Engineering", level: 85, category: "IA" },
-    { name: "Code Generation", level: 90, category: "IA" },
-    { name: "Refatoração Assistida por IA", level: 90, category: "IA" },
-    { name: "Code Review Assistido por IA", level: 85, category: "IA" },
-    { name: "Documentação Assistida por IA", level: 90, category: "IA" },
-    { name: "Análise de Requisitos com IA", level: 85, category: "IA" },
-    { name: "Geração de Testes com IA", level: 80, category: "IA" },
-
-
     // ===== JAVA =====
     { name: "Java", level: 95, category: "Java" },
     { name: "Spring Framework", level: 92, category: "Java" },
@@ -368,19 +355,16 @@ export const skills = {
     { name: "XStream", level: 25, category: "Java" },
     { name: "Maven", level: 80, category: "Java" },
 
-    // ===== .NET =====
-
+    // ===== MICROSOFT =====
     { name: "VB6 (Visual Basic 6)", level: 85, category: "Microsoft" },
+    { name: "ASP Clássico", level: 85, category: "Microsoft" },
+    { name: ".NET Framework", level: 88, category: "Microsoft" },
     { name: "VB.NET", level: 80, category: "Microsoft" },
     { name: "C#", level: 85, category: "Microsoft" },
-    { name: "ASP Clássico", level: 85, category: "Microsoft" },
     { name: "ASP.NET", level: 85, category: "Microsoft" },
     { name: "ASP.NET MVC", level: 82, category: "Microsoft" },
-    { name: ".NET Framework", level: 88, category: "Microsoft" }, 
-    { name: ".NET (Core/.NET 5+)", level: 45, category: "Microsoft" },
     { name: "Entity Framework", level: 82, category: "Microsoft" },
     { name: "Web Services", level: 80, category: "Microsoft" },
-
 
     // ===== PHP =====
     { name: "PHP", level: 85, category: "PHP" },
@@ -389,20 +373,22 @@ export const skills = {
     { name: "CodeIgniter", level: 78, category: "PHP" },
     { name: "CakePHP", level: 76, category: "PHP" },
 
+    // ===== JAVASCRIPT =====
+    { name: "JavaScript", level: 90, category: "JavaScript" },
+    { name: "TypeScript", level: 88, category: "JavaScript" },
+    { name: "Node.js", level: 82, category: "JavaScript" },
+    { name: "AngularJS", level: 85, category: "JavaScript" },
+
+
     // ===== FRONTEND =====
-    { name: "JavaScript", level: 90, category: "Frontend" },
-    { name: "TypeScript", level: 88, category: "Frontend" },
-    { name: "Angular (v8, v9, v10, v16)", level: 80, category: "Frontend" },
-    { name: "AngularJS", level: 85, category: "Frontend" },
+    { name: "Angular", level: 80, category: "Frontend" },
     { name: "jQuery", level: 82, category: "Frontend" },
     { name: "Bootstrap", level: 82, category: "Frontend" },
     { name: "HTML5", level: 95, category: "Frontend" },
     { name: "VBScript", level: 70, category: "Frontend" },
     { name: "Less", level: 35, category: "Frontend" },
     { name: "Sass", level: 35, category: "Frontend" },
-
-    // ===== NODE.JS =====
-    { name: "Node.js", level: 82, category: "Node.js" },
+    { name: "CSS", level: 90, category: "Frontend" },
 
     // ===== DATABASE =====
     { name: "MySQL", level: 88, category: "Database" },
@@ -459,6 +445,18 @@ export const skills = {
       level: 78,
       category: "Modeling",
     },
+
+    // ===== AI =====
+    { name: "ChatGPT", level: 95, category: "AI" },
+    { name: "Microsoft Copilot", level: 90, category: "AI" },
+    { name: "GitHub Copilot", level: 85, category: "AI" },
+    { name: "Prompt Engineering", level: 85, category: "AI" },
+    { name: "Code Generation", level: 90, category: "AI" },
+    { name: "Refatoração Assistida por IA", level: 90, category: "AI" },
+    { name: "Code Review Assistido por IA", level: 85, category: "AI" },
+    { name: "Documentação Assistida por IA", level: 90, category: "AI" },
+    { name: "Análise de Requisitos com IA", level: 85, category: "AI" },
+    { name: "Geração de Testes com IA", level: 80, category: "AI" },
 
     // ===== TOOLS =====
     { name: "Git", level: 90, category: "Tools" },
