@@ -5,6 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 
 import {
   Code, 
+  Code2,
   Globe,    
   Settings, 
   Award ,
@@ -69,6 +70,8 @@ const Skills = () => {
 
   Methodology: <GraduationCap size={20} />,
   Leadership: <Users size={20} />,
+
+   JavaScript: <Code2 size={20} />,
 
   AI: <Bot size={20} />,
   };

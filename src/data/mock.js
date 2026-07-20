@@ -364,7 +364,8 @@ export const skills = {
     { name: "ASP.NET", level: 85, category: "Microsoft" },
     { name: "ASP.NET MVC", level: 82, category: "Microsoft" },
     { name: "Entity Framework", level: 82, category: "Microsoft" },
-    { name: "Web Services", level: 80, category: "Microsoft" },
+    { name: "Web Services", level: 80, category: "Microsoft" },    
+    { name: "VBScript", level: 70, category: "Microsoft" },
 
     // ===== PHP =====
     { name: "PHP", level: 85, category: "PHP" },
@@ -378,14 +379,13 @@ export const skills = {
     { name: "TypeScript", level: 88, category: "JavaScript" },
     { name: "Node.js", level: 82, category: "JavaScript" },
     { name: "AngularJS", level: 85, category: "JavaScript" },
+    { name: "jQuery", level: 82, category: "JavaScript" },
 
 
     // ===== FRONTEND =====
     { name: "Angular", level: 80, category: "Frontend" },
-    { name: "jQuery", level: 82, category: "Frontend" },
     { name: "Bootstrap", level: 82, category: "Frontend" },
     { name: "HTML5", level: 95, category: "Frontend" },
-    { name: "VBScript", level: 70, category: "Frontend" },
     { name: "Less", level: 35, category: "Frontend" },
     { name: "Sass", level: 35, category: "Frontend" },
     { name: "CSS", level: 90, category: "Frontend" },
@@ -421,12 +421,12 @@ export const skills = {
       level: 75,
       category: "Security",
     },
-    { name: "Fortify", level: 80, category: "Security" },
-
-    // ===== QUALITY =====
+  
+    // ===== QUALITY =====    
     { name: "JUnit", level: 85, category: "Quality" },
     { name: "PHPUnit", level: 72, category: "Quality" },
-    { name: "SonarQube", level: 85, category: "Quality" },
+    { name: "SonarQube", level: 85, category: "Quality" },    
+    { name: "Fortify", level: 80, category: "Quality" },
 
     // ===== REPORTING =====
     { name: "JasperReports", level: 78, category: "Reporting" },
