@@ -335,48 +335,52 @@ export const skills = {
       category: "Architecture",
     },
 
-    // ===== BACKEND =====
-    { name: "Java", level: 95, category: "Backend" },
-    { name: "Spring Framework", level: 92, category: "Backend" },
-    { name: "Spring MVC", level: 90, category: "Backend" },
-    { name: "Spring Boot", level: 93, category: "Backend" },
-    { name: "Spring Data JPA", level: 88, category: "Backend" },
-    { name: "Quarkus", level: 80, category: "Backend" },
-    { name: "Hibernate", level: 90, category: "Backend" },
-    { name: "JSF (JavaServer Faces)", level: 85, category: "Backend" },
-    { name: "PrimeFaces", level: 82, category: "Backend" },
-    { name: "JSP (JavaServer Pages)", level: 80, category: "Backend" },
-    { name: "Struts", level: 78, category: "Backend" },
-    { name: "EJB (Enterprise JavaBeans)", level: 75, category: "Backend" },
-    { name: "JDBC", level: 85, category: "Backend" },
-    { name: "Servlets", level: 70, category: "Backend" },
-    { name: "Log4j", level: 85, category: "Backend" },
-    { name: "XStream", level: 25, category: "Backend" },
-    { name: "iReport", level: 70, category: "Backend" },
-    { name: "JasperReports", level: 78, category: "Backend" },
-    { name: "Maven", level: 80, category: "Backend" },
-    { name: ".NET Framework", level: 88, category: "Backend" },
-    { name: "Entity Framework", level: 82, category: "Backend" },
-    { name: "VB.NET", level: 80, category: "Backend" },
-    { name: "Crystal Reports", level: 75, category: "Backend" },
-    { name: "PHP", level: 85, category: "Backend" },
-    { name: "Zend Framework", level: 60, category: "Backend" },
-    { name: "Laravel", level: 68, category: "Backend" },
-    { name: "CodeIgniter", level: 78, category: "Backend" },
-    { name: "CakePHP", level: 76, category: "Backend" },
-    { name: "Node.js", level: 82, category: "Backend" },
+    // ===== JAVA =====
+    { name: "Java", level: 95, category: "Java" },
+    { name: "Spring Framework", level: 92, category: "Java" },
+    { name: "Spring MVC", level: 90, category: "Java" },
+    { name: "Spring Boot", level: 93, category: "Java" },
+    { name: "Spring Data JPA", level: 88, category: "Java" },
+    { name: "Spring Security", level: 87, category: "Java" },
+    { name: "Quarkus", level: 80, category: "Java" },
+    { name: "Hibernate", level: 90, category: "Java" },
+    { name: "JDBC", level: 85, category: "Java" },
+    { name: "Servlets", level: 70, category: "Java" },
+    { name: "EJB (Enterprise JavaBeans)", level: 75, category: "Java" },
+    { name: "JSF (JavaServer Faces)", level: 85, category: "Java" },
+    { name: "PrimeFaces", level: 82, category: "Java" },
+    { name: "JSP (JavaServer Pages)", level: 80, category: "Java" },
+    { name: "Struts", level: 78, category: "Java" },
+    { name: "Log4j", level: 85, category: "Java" },
+    { name: "XStream", level: 25, category: "Java" },
+    { name: "Maven", level: 80, category: "Java" },
+
+    // ===== .NET =====
+    { name: ".NET Framework", level: 88, category: ".NET" },
+    { name: "VB.NET", level: 80, category: ".NET" },
+    { name: "Entity Framework", level: 82, category: ".NET" },
+
+    // ===== PHP =====
+    { name: "PHP", level: 85, category: "PHP" },
+    { name: "Laravel", level: 68, category: "PHP" },
+    { name: "Zend Framework", level: 60, category: "PHP" },
+    { name: "CodeIgniter", level: 78, category: "PHP" },
+    { name: "CakePHP", level: 76, category: "PHP" },
 
     // ===== FRONTEND =====
-    { name: "Angular (v8, v9, v10, v16)", level: 80, category: "Frontend" },
-    { name: "AngularJS", level: 85, category: "Frontend" },
     { name: "JavaScript", level: 90, category: "Frontend" },
     { name: "TypeScript", level: 88, category: "Frontend" },
+    { name: "Angular (v8, v9, v10, v16)", level: 80, category: "Frontend" },
+    { name: "AngularJS", level: 85, category: "Frontend" },
     { name: "jQuery", level: 82, category: "Frontend" },
-    { name: "VBScript", level: 70, category: "Frontend" },
     { name: "Bootstrap", level: 82, category: "Frontend" },
     { name: "HTML5", level: 95, category: "Frontend" },
+    { name: "VBScript", level: 70, category: "Frontend" },
     { name: "Less", level: 35, category: "Frontend" },
     { name: "Sass", level: 35, category: "Frontend" },
+
+    // ===== NODE.JS =====
+    { name: "Node.js", level: 82, category: "Node.js" },
 
     // ===== DATABASE =====
     { name: "MySQL", level: 88, category: "Database" },
@@ -401,17 +405,25 @@ export const skills = {
     { name: "Amazon SQS", level: 9, category: "Messaging" },
 
     // ===== SECURITY =====
-    { name: "Spring Security", level: 87, category: "Security" },
     { name: "OAuth 2.0", level: 65, category: "Security" },
     { name: "JWT (JSON Web Token)", level: 52, category: "Security" },
     { name: "SSO (Single Sign-On)", level: 46, category: "Security" },
-    { name: "LGPD (Lei Geral de Proteção de Dados)", level: 75, category: "Security" },
+    {
+      name: "LGPD (Lei Geral de Proteção de Dados)",
+      level: 75,
+      category: "Security",
+    },
     { name: "Fortify", level: 80, category: "Security" },
 
     // ===== QUALITY =====
-    { name: "SonarQube", level: 85, category: "Quality" },
     { name: "JUnit", level: 85, category: "Quality" },
     { name: "PHPUnit", level: 72, category: "Quality" },
+    { name: "SonarQube", level: 85, category: "Quality" },
+
+    // ===== REPORTING =====
+    { name: "JasperReports", level: 78, category: "Reporting" },
+    { name: "iReport", level: 70, category: "Reporting" },
+    { name: "Crystal Reports", level: 75, category: "Reporting" },
 
     // ===== MODELING =====
     { name: "UML", level: 90, category: "Modeling" },
