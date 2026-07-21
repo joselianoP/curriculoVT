@@ -37,8 +37,8 @@ export const experiences = [
       "Mentoria e suporte a novos desenvolvedores, promovendo integração, evolução técnica e fortalecimento da equipe",
       "Liderança técnica na implementação e manutenção de sistemas, garantindo escalabilidade, performance, segurança e boas práticas de desenvolvimento",
       "Otimização de APIs, reduzindo em 60% o tempo de resposta em consultas via Cobol",
-      "Modernização de sistemas legados com implementação de APIs REST e microserviços em Java 11/21 (Spring Boot) na AWS Cloud, aumentando escalabilidade e eficiência",
-      "Desenvolvimento e manutenção de sistemas full stack, utilizando Java, Angular (8 a 16), AngularJS, Node.js, JavaScript, jQuery, HTML, CSS e VBScript aplicados a produtos do setor de Auto",
+      "Modernização de sistemas legados com implementação de APIs REST e microserviços em Java (Spring Boot) na AWS Cloud, aumentando escalabilidade e eficiência",
+      "Desenvolvimento e manutenção de sistemas full stack, utilizando Java, Angular, AngularJS, Node.js, JavaScript, jQuery, HTML, CSS e VBScript aplicados a produtos do setor de Auto",
       "Definição de padronização de bibliotecas e configuração do IBM WebSphere, garantindo consistência, segurança e facilidade de integração",
       "Homologação e validação de requisitos de software junto ao cliente, assegurando alinhamento com necessidades de negócio e entregas de valor",
       "Gestão da evolução de projetos utilizando Timeline, Kanban e Scrum em equipes multidisciplinares de TI",
@@ -51,9 +51,9 @@ export const experiences = [
       "Participação ativa em todos os estágios do ciclo de vida do software, desde levantamento de requisitos até entrega final, garantindo soluções confiáveis e sustentáveis",
     ],
     technologies: [
-      "Java 11/21",
+      "Java",
       "Spring Boot",
-      "Angular 8-16",
+      "Angular",
       "Node.js",
       "AWS",
       "IBM WebSphere",
@@ -94,9 +94,9 @@ export const experiences = [
       "Colaboração com equipes de produto e negócio, traduzindo requisitos em soluções técnicas eficazes alinhadas às necessidades do cliente e às boas práticas de desenvolvimento",
     ],
     technologies: [
-      "Java 6-11",
+      "Java",
       "Spring Boot",
-      "Angular 8-12",
+      "Angular",
       "RESTful APIs",
       "Apache Tomcat",
       "SQL Server",
@@ -128,12 +128,12 @@ export const experiences = [
       "Liderança técnica no projeto Bolsa Família, migrando Front-End para Angular e integrando com APIs REST.",
     responsibilities: [
       "Liderança técnica na modernização de sistemas, promovendo otimização de desempenho, escalabilidade e adoção de boas práticas em arquitetura e código",
-      "Participação no projeto Bolsa Família, liderando a atualização do Front-End para Angular (8 a 12) e integração com APIs REST, garantindo soluções modernas e alinhadas às necessidades do cliente",
+      "Participação no projeto Bolsa Família, liderando a atualização do Front-End para Angular e integração com APIs REST, garantindo soluções modernas e alinhadas às necessidades do cliente",
       "Revisão de código, programação em pares, refatoração e correção de bugs, assegurando alta qualidade, segurança e manutenção sustentável das aplicações",
       "Homologação e validação de requisitos junto ao cliente, garantindo alinhamento com expectativas de negócio e entregas de valor contínuo",
       "Comunicação estratégica com stakeholders, promovendo transparência, acompanhamento de progresso e eficácia nas entregas",
       "Colaboração direta com equipes de produto e negócios, traduzindo requisitos em soluções técnicas viáveis, com foco em entregas ágeis e de alta qualidade",
-      "Atuação em desenvolvimento full stack com tecnologias como Java (6 a 11), Spring Boot/MVC, Quarkus, Hibernate/JPA, JSF, PrimeFaces, JSP, Struts, Node.js, AngularJS e Angular, além de JavaScript, jQuery, VBScript, HTML, XML, JSON e RESTful",
+      "Atuação em desenvolvimento full stack com tecnologias como Java, Spring Boot/MVC, Quarkus, Hibernate/JPA, JSF, PrimeFaces, JSP, Struts, Node.js, AngularJS e Angular, além de JavaScript, jQuery, VBScript, HTML, XML, JSON e RESTful",
       "Experiência com aplicações legadas e integração de sistemas, incluindo ASP Clássico, Apache Tomcat, JBoss, Jetty, JasperReports e iReport",
       "Controle de versionamento e qualidade de código com GitLab, Bitbucket, SVN, SonarQube e Fortify, aplicando metodologias Kanban e Scrum para gestão de projetos",
       "Trabalho com bancos de dados relacionais, incluindo SQL Server e DB2, assegurando consultas otimizadas e integridade de dados",
@@ -596,7 +596,7 @@ export const projects = [
     description:
       "Arquitetura e desenvolvimento de aplicação estruturada em BFF (Backend for Frontend), promovendo eficiência na comunicação entre front-end e back-end.",
     technologies: [
-      "Java 21",
+      "Java",
       "Spring Boot",
       "Angular 16",
       "AWS",
@@ -617,7 +617,7 @@ export const projects = [
     title: "Modernização Sistema Bolsa Família",
     description:
       "Liderança na migração de AngularJS para Angular 8+ com arquitetura baseada em microserviços para o programa social do governo federal.",
-    technologies: ["Angular 8-12", "Java 11", "Spring Boot", "APIs REST"],
+    technologies: ["Angular", "Java", "Spring Boot", "APIs REST"],
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
     status: "Produção",
