@@ -180,6 +180,17 @@ const Footer = () => {
               </div>
               <div>
                 <strong className="text-navy-100">Resposta:</strong> Até 24h
+
+
+                  <a
+                                                href={personalInfo.linkDow}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-gray-400 hover:text-navy-600 transition-colors duration-200 transform hover:scale-110"
+                                              >
+                                                teste
+                                              </a>
+
               </div>
             </div>
           </div>
